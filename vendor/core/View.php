@@ -48,4 +48,17 @@ class View
         $out .= '    <meta name="keywords" content="' . h($this->meta['keywords']) . '">' . PHP_EOL;
         return $out;
     }
+
+    public function getPart($file, $data = [])
+    {
+        if (is_array($data)) {
+            extract($data);
+        }
+        $file = APP . "/views/{$file}.php";
+        if (is_file($file)) {
+            require $file;
+        } else {
+            echo "Файл {$file} не найден!";
+        }
+    }
 }

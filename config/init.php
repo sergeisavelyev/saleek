@@ -9,7 +9,7 @@ define("CACHE", ROOT . "/tmp/cache");
 define("LOGS", ROOT . "/tmp/logs");
 define("CONFIG", ROOT . "/config");
 define("LAYOUT", "saleek");
-define("PATH", ROOT . "http://saleek");
+define("PATH", "http://saleek");
 define("ADMIN", ROOT . "http://saleek/admin");
 define("NO_IMG", ROOT . "/public/images/no_image.jpg");
 
