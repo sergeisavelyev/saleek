@@ -2,12 +2,13 @@
 
 namespace app\controllers;
 
-use core\Controller;
 
-class MainController extends Controller
+class MainController extends AppController
 {
     public function indexAction()
     {
         $this->setMeta('Главная страница', 'Описание', 'Keywords');
+        $products = $this->model->getProducts();
+        $this->set(compact('products'));
     }
 }

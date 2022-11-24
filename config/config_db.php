@@ -2,7 +2,7 @@
 
 return [
     'host' => 'localhost',
-    'name' => 'filmik',
+    'name' => 'saleek',
     'user' => 'root',
     'password' => 'root',
     'charset' => 'utf8',

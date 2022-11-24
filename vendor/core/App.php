@@ -13,6 +13,7 @@ class App
         self::$app = Registry::getInstance();
         $this->getParams();
         Router::dispatch($query);
+        debug(self::$app->getProperties());
     }
 
     protected function getParams()

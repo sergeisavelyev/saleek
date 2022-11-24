@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700;900&family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= PATH ?>/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= PATH ?>/assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="<?= PATH ?>/assets/css/main.css">
     <link rel="icon" sizes="32x32" href="<?= PATH ?>/assets/icon.png">
-    <title>Document</title>
+    <?= $this->getMeta(); ?>
 </head>
 
 <body>
@@ -84,7 +84,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-sm-5">
                         <a class="logo" href="#">
-                            <img src="<?= PATH ?>/assets/icon.png" alt="" width="40" height="40" class="mb-2 me-2">
+                            <img src="<?= PATH ?>/assets/icon.png" alt="" width="40" height="45" class="mb-2 me-2">
                             Saleek
                         </a>
                     </div>

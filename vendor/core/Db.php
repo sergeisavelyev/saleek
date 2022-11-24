@@ -6,17 +6,19 @@ use PDO;
 
 class Db
 {
-    protected $db;
+    use TSingleton;
+
+    protected static $db;
 
     public function __construct()
     {
         $config = require_once CONFIG . '/config_db.php';
-        $this->db = new PDO('mysql:host=' . $config['host'] . ';dbname=' . $config['name'] . '', $config['user'], $config['password']);
+        self::$db = new PDO('mysql:host=' . $config['host'] . ';dbname=' . $config['name'] . '', $config['user'], $config['password']);
     }
 
-    public function query($sql, $params = [])
+    public static function query($sql, $params = [])
     {
-        $stmt = $this->db->prepare($sql);
+        $stmt = self::$db->prepare($sql);
         if (!empty($params)) {
             foreach ($params as $k => $v) {
                 if (is_int($v)) {
@@ -33,13 +35,13 @@ class Db
 
     public function column($sql, $params = [])
     {
-        $result = $this->query($sql, $params);
+        $result = self::query($sql, $params);
         return $result->fetchColumn();
     }
 
-    public function row($sql, $params = [])
+    public static function row($sql, $params = [])
     {
-        $result = $this->query($sql, $params);
+        $result = self::query($sql, $params);
         return $result->fetchAll(PDO::FETCH_ASSOC);
     }
 }

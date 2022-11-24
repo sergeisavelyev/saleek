@@ -43,13 +43,13 @@ class View
 
     public function getMeta()
     {
-        $out = '<title>' . h($this->meta['title']) . '</title>' . PHP_EOL;
+        $out = '<title>' . App::$app->getProperty('site_name') . ' | ' . h($this->meta['title']) . '</title>' . PHP_EOL;
         $out .= '    <meta name="description" content="' . h($this->meta['title']) . '">' . PHP_EOL;
         $out .= '    <meta name="keywords" content="' . h($this->meta['keywords']) . '">' . PHP_EOL;
         return $out;
     }
 
-    public function getPart($file, $data = [])
+    public function getPart($file, $data = null)
     {
         if (is_array($data)) {
             extract($data);

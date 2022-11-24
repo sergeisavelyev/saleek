@@ -1,177 +1,81 @@
-<div class="container-lg mt-5">
+<div class="container-lg ">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="<?= PATH . '/public/uploads/images/carousel/1.jpg' ?>" class="d-block w-100" alt="#">
+            </div>
+            <div class="carousel-item">
+                <img src="<?= PATH . '/public/uploads/images/carousel/2.jpg' ?>" class="d-block w-100" alt="#">
+            </div>
+            <div class="carousel-item">
+                <img src="<?= PATH . '/public/uploads/images/carousel/3.jpg' ?>" class="d-block w-100" alt="#">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
     <div class="row">
         <div class="col-3 sidebar d-none d-lg-block">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                     <h2>Электроника</h2>
                 </li>
-                <li class="list-group-item">Второй элемент</li>
-                <li class="list-group-item">Третий элемент</li>
-                <li class="list-group-item">Четвертый элемент</li>
-                <li class="list-group-item">И пятый</li>
+                <li class="list-group-item">Смартфоны и аксессуары</li>
+                <li class="list-group-item">Консоли и видеоигры</li>
+                <li class="list-group-item">Компьютеры и планшеты</li>
+                <li class="list-group-item">Фото и видео</li>
+                <li class="list-group-item">ТВ и аудиотехника</li>
+                <li class="list-group-item">Умная электроника</li>
             </ul>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                     <h2>Авто-Мото</h2>
                 </li>
-                <li class="list-group-item">Второй элемент</li>
-                <li class="list-group-item">Третий элемент</li>
-                <li class="list-group-item">Четвертый элемент</li>
-                <li class="list-group-item">И пятый</li>
+                <li class="list-group-item">Запчасти для автомобилей</li>
+                <li class="list-group-item">Инструменты</li>
+                <li class="list-group-item">Одежда</li>
+                <li class="list-group-item">Электроника и GPS</li>
             </ul>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    <h2>Для дома</h2>
+                    <h2>Мода</h2>
                 </li>
-                <li class="list-group-item">Второй элемент</li>
-                <li class="list-group-item">Третий элемент</li>
-                <li class="list-group-item">Четвертый элемент</li>
-                <li class="list-group-item">И пятый</li>
+                <li class="list-group-item">Женщины</li>
+                <li class="list-group-item">Мужчины</li>
+                <li class="list-group-item">Аксессуары</li>
+                <li class="list-group-item">Обувь</li>
             </ul>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    <h2>Фото и видео</h2>
+                    <h2>Дом и сад</h2>
                 </li>
-                <li class="list-group-item">Второй элемент</li>
-                <li class="list-group-item">Третий элемент</li>
-                <li class="list-group-item">Четвертый элемент</li>
-                <li class="list-group-item">И пятый</li>
+                <li class="list-group-item">Мебель</li>
+                <li class="list-group-item">Сад и огород</li>
+                <li class="list-group-item">Интерьер</li>
+                <li class="list-group-item">Товары для кухни</li>
             </ul>
         </div>
         <div class="col-lg-9">
-            <div class="filters d-flex">
-                <p class="me-2">Фильтры <i class="fa-solid fa-filter"></i></p>
-                <p class="me-2">Сортировка <i class="fa-solid fa-arrow-down-wide-short"></i></p>
-            </div>
-            <hr>
+            <a href="" class="d-flex align-items-baseline my-2">
+                <h2>Электроника & смартфоны</h2>
+                <div class="mx-1">смотреть больше </div><i class="fa-solid fa-arrow-right"></i>
+            </a>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-3 px-1">
-                    <div class="product p-2">
-                        <a href="">
-                            <img src="<?= PATH ?>/assets/images/smartphones/4.jpg" class="img img-fluid mb-2" alt="#">
-                            <h5 class="card-title mb-2">Xiaomi Mi 10T Pro - 128GB - Cosmic Black (Ohne Simlock) (Dual SIM)</h5>
-                            <div class="product-info d-flex">
-                                <div class="d-flex flex-column">
-                                    <h5 class="price card-title my-2">185 USD</h5>
-                                    <h5 class="price card-title">13000 RUB</h5>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <p class="mb-1">5 ставок</p>
-                                    <p class="mb-1">до конца: 54ч 23м</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-3 px-1">
-                    <div class="product p-2">
-                        <a href="">
-                            <img src="<?= PATH ?>/assets/images/2.jpg" class="img img-fluid mb-2" alt="#">
-                            <h5 class="card-title mb-2">Смартфон Apple iPhone 13 Pro 128 ГБ золотистый</h5>
-                            <div class="product-info d-flex">
-                                <div class="d-flex flex-column">
-                                    <h5 class="price card-title my-2">520 USD</h5>
-                                    <h5 class="price card-title">65000 RUB</h5>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <p class="mb-1">16 ставок</p>
-                                    <p class="mb-1">до конца: 54ч 23м</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-3 px-1">
-                    <div class="product p-2">
-                        <a href="">
-                            <img src="<?= PATH ?>/assets/images/7.jpg" class="img img-fluid mb-2" alt="#">
-                            <h5 class="card-title mb-2">OnePlus 8 Pro - 256GB - Ultramarine Blue (Ohne Simlock) (Dual SIM)</h5>
-                            <div class="product-info d-flex">
-                                <div class="d-flex flex-column">
-                                    <h5 class="price card-title my-2">185 USD</h5>
-                                    <h5 class="price card-title">13000 RUB</h5>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <p class="mb-1">2 ставок</p>
-                                    <p class="mb-1">до конца: 14ч 23м</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-3 px-1">
-                    <div class="product p-2">
-                        <a href="">
-                            <img src="<?= PATH ?>/assets/images/3.jpg" class="img img-fluid mb-2" alt="#">
-                            <h5 class="card-title mb-2">OnePlus 8 Pro - 256GB - Ultramarine Blue (Ohne Simlock) (Dual SIM)</h5>
-                            <div class="product-info d-flex">
-                                <div class="d-flex flex-column">
-                                    <h5 class="price card-title my-2">185 USD</h5>
-                                    <h5 class="price card-title">13000 RUB</h5>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <p class="mb-1">2 ставок</p>
-                                    <p class="mb-1">до конца: 14ч 23м</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-3 px-1">
-                    <div class="product p-2">
-                        <a href="">
-                            <img src="<?= PATH ?>/assets/images/1.jpg" class="img img-fluid mb-2" alt="#">
-                            <h5 class="card-title mb-2">Смартфон Apple iPhone 13 Pro 128 ГБ золотистый</h5>
-                            <div class="product-info d-flex">
-                                <div class="d-flex flex-column">
-                                    <h5 class="price card-title my-2">1250 USD</h5>
-                                    <h5 class="price card-title">85000 RUB</h5>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <p class="mb-1">0 ставок</p>
-                                    <p class="mb-1">до конца: 53м</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-3 px-1">
-                    <div class="product p-2">
-                        <a href="">
-                            <img src="<?= PATH ?>/assets/images/5.jpg" class="img img-fluid mb-2" alt="#">
-                            <h5 class="card-title mb-2">Смартфон Apple iPhone 13 Pro 128 ГБ золотистый</h5>
-                            <div class="product-info d-flex">
-                                <div class="d-flex flex-column">
-                                    <h5 class="price card-title my-2">950 USD</h5>
-                                    <h5 class="price card-title">65000 RUB</h5>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <p class="mb-1">14 ставок</p>
-                                    <p class="mb-1">до конца: 2ч 11м</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-3 px-1">
-                    <div class="product p-2">
-                        <a href="">
-                            <img src="<?= PATH ?>/assets/images/8.jpg" class="img img-fluid mb-2" alt="#">
-                            <h5 class="card-title mb-2">Apple iPhone XR 64GB Black</h5>
-                            <div class="product-info d-flex">
-                                <div class="d-flex flex-column">
-                                    <h5 class="price card-title my-2">145 USD</h5>
-                                    <h5 class="price card-title">9500 RUB</h5>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <p class="mb-1">156 ставок</p>
-                                    <p class="mb-1">до конца: 1ч 13м</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                <?php $this->getPart('parts/products_loop', compact('products')); ?>
+            </div>
 
+            <a href="" class="d-flex align-items-baseline my-2">
+                <h2>Авто и мото</h2>
+                <div class="mx-1">смотреть больше </div><i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <div class="row">
+                <?php $this->getPart('parts/products_loop', compact('products')); ?>
             </div>
         </div>
     </div>

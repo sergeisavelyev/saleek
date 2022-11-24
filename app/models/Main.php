@@ -2,13 +2,13 @@
 
 namespace app\models;
 
-use core\Model;
+use core\Db;
 
-class Main extends Model
+class Main extends AppModel
 {
-    public function getName()
+    public function getProducts()
     {
-        $name = $this->db->row('SELECT * FROM users');
-        return $name;
+        $all = Db::row('SELECT p.*, pd.* FROM product p JOIN product_description pd ON p.id = pd.product_id WHERE pd.language_id = 1 ORDER BY id  LIMIT 6');
+        return $all;
     }
 }

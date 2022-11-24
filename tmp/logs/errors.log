@@ -310,3 +310,269 @@ Stack trace:
 ====================
 [2022-11-23 11:09:22] Текст ошибки: Метод app\controllers\MainController::fsaAction не найден | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 38
 ====================
+[2022-11-23 12:05:48] Текст ошибки: Undefined property: app\controllers\MainController::$db | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:05:48] Текст ошибки: Call to a member function row() on null | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:08:47] Текст ошибки: Cannot instantiate abstract class core\Model | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 13
+====================
+[2022-11-23 12:09:01] Текст ошибки: Cannot instantiate abstract class core\Model | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 13
+====================
+[2022-11-23 12:09:58] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:09:58] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:09:58] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:09:58] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:09:58] Текст ошибки: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:08] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:08] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:08] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:08] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:08] Текст ошибки: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:29] Текст ошибки: syntax error, unexpected variable "$model", expecting ":" | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 13
+====================
+[2022-11-23 12:10:56] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:56] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:56] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:56] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:10:56] Текст ошибки: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:11:05] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:11:05] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:11:05] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:11:05] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:11:05] Текст ошибки: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 14
+====================
+[2022-11-23 12:17:43] Текст ошибки: Undefined property: app\models\Main::$getProducts | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 12
+====================
+[2022-11-23 12:18:04] Текст ошибки: Undefined property: app\models\Main::$getProducts | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 12
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $8 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/8.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $7 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/7.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $6 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/6.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $5 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/5.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $4 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/4.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $3 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/3.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $2 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/2.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:19:13] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/1.jpg | Файл: D:\domains\saleek\app\controllers\MainController.php | Строка: 11
+====================
+[2022-11-23 12:21:01] Текст ошибки: Cannot assign string to property core\Controller::$data of type array | Файл: D:\domains\saleek\vendor\core\Controller.php | Строка: 33
+====================
+[2022-11-23 12:21:08] Текст ошибки: Cannot assign string to property core\Controller::$data of type array | Файл: D:\domains\saleek\vendor\core\Controller.php | Строка: 33
+====================
+[2022-11-23 12:21:22] Текст ошибки: Cannot assign string to property core\Controller::$data of type array | Файл: D:\domains\saleek\vendor\core\Controller.php | Строка: 33
+====================
+[2022-11-23 12:21:23] Текст ошибки: Cannot assign string to property core\Controller::$data of type array | Файл: D:\domains\saleek\vendor\core\Controller.php | Строка: 33
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:24:56] Текст ошибки: Attempt to read property "img" on array | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 52
+====================
+[2022-11-23 12:27:23] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 30
+====================
+[2022-11-23 12:28:09] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 30
+====================
+[2022-11-23 12:28:09] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 30
+====================
+[2022-11-23 14:18:01] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:18:02] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:18:31] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:18:47] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:18:48] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:18:48] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:18:48] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:18:48] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:19:26] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:19:26] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-23 14:19:47] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-24 10:02:46] Текст ошибки: Undefined constant core\App::getProperty | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:03:28] Текст ошибки: Undefined property: core\Registry::$getProperty | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:03:28] Текст ошибки: Trying to access array offset on value of type null | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:04:49] Текст ошибки: Undefined property: core\Registry::$getProperty | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:04:49] Текст ошибки: Trying to access array offset on value of type null | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:04:50] Текст ошибки: Undefined property: core\Registry::$getProperty | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:04:50] Текст ошибки: Trying to access array offset on value of type null | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:08:23] Текст ошибки: Undefined property: core\Registry::$getProperty | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:08:23] Текст ошибки: Trying to access array offset on value of type null | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:09:50] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:09:50] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 10:57:27] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:57:53] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:16] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:18] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:23] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:33] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:34] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:34] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:34] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:34] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:35] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 10:59:35] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:00:08] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:00:09] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:00:41] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:00:42] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:00:42] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:00:43] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:00:43] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:01:05] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:01:18] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:01:19] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:03:21] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:03:22] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:03:44] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:05:44] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:05:46] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:05:46] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 11:10:37] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
