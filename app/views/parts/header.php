@@ -1,3 +1,7 @@
+<?php
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +30,7 @@
                     </div>
                     <div class="col-5 d-none d-lg-block">
                         <div class="row justify-content-end">
-                            <div class="col-4 nav-item dropdown">
+                            <div class="col-3 nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Мой Saleek</i>
                                 </a>
@@ -39,8 +43,11 @@
                                     <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
                                 </ul>
                             </div>
+                            <div class="col-2">
+                                <?php new \app\widgets\language\Language(); ?>
+                            </div>
                             <div class="col-4"><i class="fa-solid fa-heart"></i> Список желаний</div>
-                            <div class="col-4"><i class="fa-solid fa-cart-shopping"></i> Корзина</div>
+                            <div class="col-3"><i class="fa-solid fa-cart-shopping"></i> Корзина</div>
                         </div>
                     </div>
                     <div class="col-5 d-lg-none">

@@ -2,6 +2,8 @@
 
 namespace core;
 
+use core\Db;
+
 class App
 {
     public static $app;
@@ -11,9 +13,9 @@ class App
         $query = trim(urldecode($_SERVER['QUERY_STRING']), '/');
         new ErrorHandler;
         self::$app = Registry::getInstance();
+        Db::getInstance();
         $this->getParams();
         Router::dispatch($query);
-        debug(self::$app->getProperties());
     }
 
     protected function getParams()

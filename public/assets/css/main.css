@@ -109,3 +109,7 @@ footer {
     font-family: 'Raleway', sans-serif;
     background: rgb(119, 119, 119);;
 }
+
+.h100 {
+    min-height: 100vh;
+}

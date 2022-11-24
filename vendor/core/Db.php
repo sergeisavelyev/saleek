@@ -44,4 +44,10 @@ class Db
         $result = self::query($sql, $params);
         return $result->fetchAll(PDO::FETCH_ASSOC);
     }
+
+    public static function unique($sql, $params = [])
+    {
+        $result = self::query($sql, $params);
+        return $result->fetchAll(PDO::FETCH_UNIQUE | PDO::FETCH_ASSOC);
+    }
 }

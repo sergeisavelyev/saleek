@@ -576,3 +576,161 @@ Stack trace:
 ====================
 [2022-11-24 11:10:37] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
 ====================
+[2022-11-24 11:26:29] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'saleek.languages' doesn't exist | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 32
+====================
+[2022-11-24 11:26:29] Текст ошибки: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in D:\domains\saleek\vendor\core\ErrorHandler.php:58
+Stack trace:
+#0 D:\domains\saleek\vendor\core\ErrorHandler.php(58): http_response_code()
+#1 D:\domains\saleek\vendor\core\ErrorHandler.php(23): core\ErrorHandler->displayError()
+#2 [internal function]: core\ErrorHandler->exceptionHandler()
+#3 {main}
+  thrown | Файл: D:\domains\saleek\vendor\core\ErrorHandler.php | Строка: 58
+====================
+[2022-11-24 11:28:18] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'saleek.languages' doesn't exist | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 32
+====================
+[2022-11-24 13:22:39] Текст ошибки: Call to undefined method app\controllers\ProductController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 13:24:09] Текст ошибки: Call to undefined method app\controllers\ProductController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 13:24:10] Текст ошибки: Call to undefined method app\controllers\ProductController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 13:25:19] Текст ошибки: Call to undefined method app\controllers\ProductController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 13:25:19] Текст ошибки: Call to undefined method app\controllers\ProductController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 13:30:52] Текст ошибки: Call to undefined method app\controllers\ProductController::getModel() | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 32
+====================
+[2022-11-24 13:34:20] Текст ошибки: Не найден вид D:\domains\saleek/app/views/Product/view.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-11-24 13:34:57] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-24 13:35:34] Текст ошибки: Не найден вид D:\domains\saleek/app/views/Product/view.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-11-24 13:35:40] Текст ошибки: Не найден вид D:\domains\saleek/app/views/Product/view.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-11-24 13:35:44] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-11-24 13:35:56] Текст ошибки: Не найден вид D:\domains\saleek/app/views/Product/view.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-11-24 13:40:58] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:40:58] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:40:58] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:41:23] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:41:23] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:41:23] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:41:39] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:41:39] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:41:39] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:44:24] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:44:24] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:44:24] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:44:26] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:44:26] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:44:26] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:44:53] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:44:53] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:44:53] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:45:30] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:45:30] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:45:30] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:45:31] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:45:31] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:45:31] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:46:55] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:46:55] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:46:55] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:48:02] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:48:02] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:48:02] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 49
+====================
+[2022-11-24 13:50:37] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:50:37] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:50:37] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:50:37] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 49
+====================
+[2022-11-24 13:52:55] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:52:55] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:52:55] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:54:06] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:54:06] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:54:06] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:54:20] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 46
+====================
+[2022-11-24 13:54:20] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:54:20] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 13:54:30] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 47
+====================
+[2022-11-24 13:54:30] Текст ошибки: Undefined array key "keywords" | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 48
+====================
+[2022-11-24 14:15:38] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 21
+====================
+[2022-11-24 14:19:02] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 21
+====================
+[2022-11-24 14:22:23] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 21
+====================
+[2022-11-24 14:28:00] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 21
+====================
+[2022-11-24 14:28:38] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 22
+====================
+[2022-11-24 14:33:52] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 22
+====================
+[2022-11-24 14:33:59] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 22
+====================
+[2022-11-24 14:34:03] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 22
+====================
+[2022-11-24 15:00:07] Текст ошибки: Не найден язык fr | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 38
+====================
+[2022-11-24 15:00:17] Текст ошибки: Не найден язык fr | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 38
+====================
+[2022-11-24 15:00:19] Текст ошибки: Не найден язык de | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 38
+====================
+[2022-11-24 15:07:07] Текст ошибки: Не найден язык de | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 38
+====================
+[2022-11-24 15:19:44] Текст ошибки: Access to undeclared static property app\widgets\language\Language::$tpl | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 51
+====================
+[2022-11-24 15:21:23] Текст ошибки: Access to undeclared static property app\widgets\language\Language::$tpl | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 51
+====================
+[2022-11-24 15:21:24] Текст ошибки: Access to undeclared static property app\widgets\language\Language::$tpl | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 51
+====================
+[2022-11-24 15:21:54] Текст ошибки: Access to undeclared static property app\widgets\language\Language::$tpl | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 51
+====================
