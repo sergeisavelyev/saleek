@@ -26,7 +26,7 @@ class Language
 
     public static function getLanguages()
     {
-        return Db::unique('SELECT code, title, base FROM language');
+        return Db::unique('SELECT code, title, base FROM language ORDER BY base DESC');
     }
 
     public static function getLanguage($languages)

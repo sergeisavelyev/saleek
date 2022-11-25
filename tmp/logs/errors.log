@@ -734,3 +734,49 @@ Stack trace:
 ====================
 [2022-11-24 15:21:54] Текст ошибки: Access to undeclared static property app\widgets\language\Language::$tpl | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 51
 ====================
+[2022-11-25 11:05:25] Текст ошибки: Не найден язык de | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 41
+====================
+[2022-11-25 11:07:31] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 3
+====================
+[2022-11-25 11:08:31] Текст ошибки: syntax error, unexpected token ";", expecting ")" | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 3
+====================
+[2022-11-25 11:18:23] Текст ошибки: Undefined variable $language | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:18:23] Текст ошибки: Trying to access array offset on value of type null | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:19:00] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:19:02] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:19:06] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:19:17] Текст ошибки: Undefined variable $language | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:19:17] Текст ошибки: Trying to access array offset on value of type null | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:19:32] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 8
+====================
+[2022-11-25 11:20:29] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 8
+====================
+[2022-11-25 11:20:30] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 8
+====================
+[2022-11-25 11:20:35] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:20:37] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:20:37] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 9
+====================
+[2022-11-25 11:22:16] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\language\lang_tpl.php | Строка: 10
+====================
+[2022-11-25 11:26:28] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-11-25 11:26:31] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-11-25 13:31:14] Текст ошибки: Не найден вид D:\domains\saleek/app/views/Language/change.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-11-25 13:31:51] Текст ошибки: Не найден вид D:\domains\saleek/app/views/Language/change.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-11-25 13:34:53] Текст ошибки: Не найден вид D:\domains\saleek/app/views/Language/change.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-11-25 14:05:02] Текст ошибки: Undefined array key "HTTP_REFERER" | Файл: D:\domains\saleek\app\controllers\LanguageController.php | Строка: 14
+====================

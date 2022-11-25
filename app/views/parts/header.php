@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-    <base href="/">
+    <base href="<?= base_url() ?>">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,9 +28,9 @@
                     <div class="col-4">
                         Привет! <a href="">Войти</a> или <a href="">Зарегистрироваться</a>
                     </div>
-                    <div class="col-5 d-none d-lg-block">
-                        <div class="row justify-content-end">
-                            <div class="col-3 nav-item dropdown">
+                    <div class="col-6 d-none d-lg-block">
+                        <div class="d-flex justify-content-end">
+                            <div class="ms-3 nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Мой Saleek</i>
                                 </a>
@@ -43,14 +43,14 @@
                                     <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
                                 </ul>
                             </div>
-                            <div class="col-2">
+                            <div class="">
                                 <?php new \app\widgets\language\Language(); ?>
                             </div>
-                            <div class="col-4"><i class="fa-solid fa-heart"></i> Список желаний</div>
-                            <div class="col-3"><i class="fa-solid fa-cart-shopping"></i> Корзина</div>
+                            <div class="ms-3"><i class="fa-solid fa-heart"></i> Список желаний</div>
+                            <div class="ms-3"><i class="fa-solid fa-cart-shopping"></i> Корзина</div>
                         </div>
                     </div>
-                    <div class="col-5 d-lg-none">
+                    <div class="col-5 d-lg-none d-flex justify-content-end">
                         <nav class="navbar navbar-light light-blue lighten-4">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -59,10 +59,10 @@
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item active">
                                         <div class="col-4 nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Мой Saleek</i>
                                             </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                                                 <li><a class="dropdown-item" href="#">Действие</a></li>
                                                 <li><a class="dropdown-item" href="#">Другое действие</a></li>
                                                 <li>
@@ -86,11 +86,12 @@
             </div>
         </div>
 
+
         <nav class="navv bg-light p-2 d-flex align-items-center">
             <div class="container-lg">
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-sm-5">
-                        <a class="logo" href="#">
+                        <a class="logo" href="<?= base_url() ?>">
                             <img src="<?= PATH ?>/assets/icon.png" alt="" width="40" height="45" class="mb-2 me-2">
                             Saleek
                         </a>

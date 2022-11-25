@@ -12,6 +12,8 @@
     const PATH = '<?= PATH ?>';
 </script>
 <script src="https://kit.fontawesome.com/d75bf2db6b.js" crossorigin="anonymous"></script>
+<script src="<?= PATH ?>/assets/js/jquery.js"></script>
+<script src="<?= PATH ?>/assets/js/main.js"></script>
 <script src="<?= PATH ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
