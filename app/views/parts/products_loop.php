@@ -1,6 +1,6 @@
 <?php foreach ($products as $product) : ?>
     <div class="col-lg-4 col-sm-6 mb-3 px-1">
-        <div class="product p-2">
+        <div class="product neon p-2">
             <a href="/product/<?= $product['id'] ?>">
                 <img src="<?= PATH . $product['img'] ?>" class="img img-fluid mb-2" alt="#">
                 <h6 class="card-title my-2"><?= $product['title'] ?></h6>

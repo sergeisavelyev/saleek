@@ -1,4 +1,4 @@
-<div class="container-lg ">
+<div class="container-lg">
     <div id="carouselExampleFade" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">

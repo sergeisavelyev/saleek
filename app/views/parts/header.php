@@ -26,7 +26,7 @@
             <div class="container-lg">
                 <div class="row justify-content-between">
                     <div class="col-4">
-                        Привет! <a href="">Войти</a> или <a href="">Зарегистрироваться</a>
+                        <?php __('tpl_hello') ?>! <a href=""><?php __('tpl_login') ?></a> <?php __('tpl_or') ?> <a href=""><?php __('tpl_signup') ?></a>
                     </div>
                     <div class="col-6 d-none d-lg-block">
                         <div class="d-flex justify-content-end">
@@ -98,7 +98,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-7">
                         <select class="form-select" aria-label="Пример выбора по умолчанию">
-                            <option selected>Поиск по категории</option>
+                            <option selected><?php __('tpl_search_category') ?></option>
                             <option value="1">Один</option>
                             <option value="2">Два</option>
                             <option value="3">Три</option>
@@ -106,8 +106,8 @@
                     </div>
                     <div class="col-lg-7 col">
                         <form class="d-flex search" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
-                            <button class="btn btn-outline-warning" type="submit">Поиск</button>
+                            <input class="form-control me-2" type="search" placeholder="<?php __('tpl_search') ?>" aria-label="Поиск">
+                            <button class="btn btn-outline-warning" type="submit"><?php __('tpl_search') ?></button>
                         </form>
                     </div>
                 </div>

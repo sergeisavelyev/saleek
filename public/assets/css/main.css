@@ -1,10 +1,15 @@
 body {
     font-family: 'Rubik', sans-serif;
+    background-color: rgb(248, 248, 248);
 }
 
 a {
     text-decoration: none;
     color: #000;
+}
+
+button {
+    font-family: 'Raleway', sans-serif !important;
 }
 
 
@@ -71,12 +76,13 @@ small {
 
 .product {
     border-radius: 10px;
-    height: 32rem;
+    height: 30;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    background-color: #fff;
 }
 
-.product:hover {
+.neon:hover {
     box-shadow: 0 8px 16px 0 rgba(237, 207, 16, 0.2);
 }
 
@@ -110,6 +116,49 @@ footer {
     background: rgb(119, 119, 119);;
 }
 
-.h100 {
-    min-height: 100vh;
+.border {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.h-500 {
+    height: 500px;;
+}
+
+.item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-product img {
+    width: 100%; 
+    height: 500px; 
+    object-fit: contain; 
+    object-position: center;
+}
+
+.product-sidebar button {
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.seller {
+    font-family: 'Raleway', sans-serif !important;
+    border-radius: 10px;
+    border: 1px solid #ffc107;
+}
+
+.head-price {
+    color: #ffc107;
+}
+
+.desc {
+    background-color: #fff;
+}
+
+.similar {
+    height: 17rem;
 }
