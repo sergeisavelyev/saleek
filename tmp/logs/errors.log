@@ -1,0 +1,22 @@
+[2022-11-28 12:28:49] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 21
+====================
+[2022-11-28 12:28:57] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 21
+====================
+[2022-11-28 12:29:13] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:29:14] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:30:00] Текст ошибки: Access to undeclared static property core\Db::$db | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:30:08] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:32:39] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:32:40] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:32:57] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:33:10] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
+[2022-11-28 12:33:11] Текст ошибки: Call to a member function prepare() on null | Файл: D:\domains\saleek\vendor\core\Db.php | Строка: 19
+====================
