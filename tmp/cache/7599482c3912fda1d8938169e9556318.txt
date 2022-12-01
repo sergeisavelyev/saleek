@@ -1,0 +1,57 @@
+a:2:{s:4:"data";s:2474:"<li class="sub-menu">
+    <a href="" class="menu-link"> Электроника&#187;</a>
+            <ul class="sub-menu-list">
+            <li class="sub-menu">
+    <a href="" class="sub-menu-link"> Смартфоны и аксессуары&#187;</a>
+            <ul class="sub-menu-list">
+            <li class="">
+    <a href="" class="sub-menu-link"> iPhone</a>
+    </li>        </ul>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Консоли и видеоигры</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Компьютеры и планшеты</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Фото и видео</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> ТВ и аудиотехника</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Умная электроника</a>
+    </li>        </ul>
+    </li><li class="sub-menu">
+    <a href="" class="menu-link"> Авто-Мото&#187;</a>
+            <ul class="sub-menu-list">
+            <li class="">
+    <a href="" class="sub-menu-link"> Запчасти для автомобилей</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Инструменты</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Одежда</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Электроника и GPS</a>
+    </li>        </ul>
+    </li><li class="sub-menu">
+    <a href="" class="menu-link"> Мода&#187;</a>
+            <ul class="sub-menu-list">
+            <li class="">
+    <a href="" class="sub-menu-link"> Женщины</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Мужчины</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Аксессуары</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Обувь</a>
+    </li>        </ul>
+    </li><li class="sub-menu">
+    <a href="" class="menu-link"> Дом и сад&#187;</a>
+            <ul class="sub-menu-list">
+            <li class="">
+    <a href="" class="sub-menu-link"> Мебель</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Сад и огород</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Интерьер</a>
+    </li><li class="">
+    <a href="" class="sub-menu-link"> Товары для кухни</a>
+    </li>        </ul>
+    </li>";s:8:"end_time";i:1669893800;}

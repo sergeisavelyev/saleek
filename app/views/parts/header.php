@@ -87,7 +87,7 @@
         </div>
 
 
-        <nav class="navv bg-light p-2 d-flex align-items-center">
+        <nav class="navv bg-light p-2 d-flex align-items-center menu">
             <div class="container-lg">
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-sm-5">
@@ -97,12 +97,13 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-7">
-                        <select class="form-select" aria-label="Пример выбора по умолчанию">
-                            <option selected><?php __('tpl_search_category') ?></option>
-                            <option value="1">Один</option>
-                            <option value="2">Два</option>
-                            <option value="3">Три</option>
-                        </select>
+                        <button class="category btn btn-outline-secondary " id="dropdown-menu"><?php __('tpl_search_category') ?></button>
+
+                        <div class="drop-menu">
+                            <div class="container-lg">
+                                <?php new \app\widgets\menu\Menu(); ?>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-7 col">
                         <form class="d-flex search" role="search">
@@ -112,5 +113,8 @@
                     </div>
                 </div>
             </div>
+
+
+
         </nav>
     </header>
