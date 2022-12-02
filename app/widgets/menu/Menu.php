@@ -11,7 +11,7 @@ class Menu
     protected $data;
     protected $tree;
     protected $menuHtml;
-    protected $tpl;
+    protected $tpl = __DIR__ . '/menu_tpl.php';
     protected $container = 'ul';
     protected $class = 'menu-list';
     protected $cache = 1000;
@@ -19,11 +19,11 @@ class Menu
     protected $attrs = [];
     protected $prepend = '';
     protected $language;
+    protected $maxLevel;
 
     public function __construct($options = [])
     {
         $this->language = App::$app->getProperty('language');
-        $this->tpl = __DIR__ . '/menu_tpl.php';
         $this->getOptions($options);
         $this->run();
     }
@@ -47,6 +47,7 @@ class Menu
             JOIN category_description cd ON c.id = cd.category_id 
             WHERE language_id = ?', $this->language['language_id']);
             $this->tree = $this->getTree();
+            // debug($this->tree);
             $this->menuHtml = $this->getMenuHtml($this->tree);
             if ($this->cache) {
                 $cache->set("{$this->cacheKey}_{$this->language['code']}", $this->menuHtml, $this->cache);

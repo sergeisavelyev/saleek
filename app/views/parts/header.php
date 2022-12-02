@@ -1,7 +1,3 @@
-<?php
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +28,7 @@
                         <div class="d-flex justify-content-end">
                             <div class="ms-3 nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Мой Saleek</i>
+                                    <?php __('tpl_profile') ?>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="#">Действие</a></li>
@@ -46,8 +42,8 @@
                             <div class="">
                                 <?php new \app\widgets\language\Language(); ?>
                             </div>
-                            <div class="ms-3"><i class="fa-solid fa-heart"></i> Список желаний</div>
-                            <div class="ms-3"><i class="fa-solid fa-cart-shopping"></i> Корзина</div>
+                            <div class="ms-3"><i class="fa-solid fa-heart"></i> <?php __('tpl_wishlist') ?></div>
+                            <div class="ms-3"><i class="fa-solid fa-cart-shopping"></i> <?php __('tpl_cart') ?></div>
                         </div>
                     </div>
                     <div class="col-5 d-lg-none d-flex justify-content-end">
@@ -86,7 +82,6 @@
             </div>
         </div>
 
-
         <nav class="navv bg-light p-2 d-flex align-items-center menu">
             <div class="container-lg">
                 <div class="row align-items-center">
@@ -98,10 +93,11 @@
                     </div>
                     <div class="col-lg-3 col-sm-7">
                         <button class="category btn btn-outline-secondary " id="dropdown-menu"><?php __('tpl_search_category') ?></button>
-
                         <div class="drop-menu">
                             <div class="container-lg">
-                                <?php new \app\widgets\menu\Menu(); ?>
+                                <?php new \app\widgets\menu\Menu([
+                                    'cache' => '0',
+                                ]); ?>
                             </div>
                         </div>
                     </div>
@@ -113,8 +109,5 @@
                     </div>
                 </div>
             </div>
-
-
-
         </nav>
     </header>

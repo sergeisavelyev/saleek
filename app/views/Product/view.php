@@ -40,8 +40,8 @@
         </div>
         <div class="col-4 product-sidebar h-500">
             <button type="button" class="btn btn-lg btn-warning w-100 mb-2"><i class="fa-solid fa-pen"></i> Связаться с продавцом</button>
-            <button type="button" class="btn btn-lg btn-outline-dark w-100 mb-2"><i class="fa-solid fa-heart"></i> Добавить в избранное</button>
-            <button type="button" class="btn btn-lg btn-outline-dark w-100 mb-2"><i class="fa-solid fa-phone"></i> Позвонить</button>
+            <button type="button" class="btn btn-lg btn-outline-secondary w-100 mb-2"><i class="fa-solid fa-heart"></i> Добавить в избранное</button>
+            <button type="button" class="btn btn-lg btn-outline-secondary w-100 mb-2"><i class="fa-solid fa-phone"></i> Позвонить</button>
             <div class="seller p-3">
                 <p>Информация о продавце</p>
                 <h4 class="mb-2"><i class="fa-regular fa-user"></i> User_test</h4>
@@ -52,7 +52,7 @@
                 <hr>
                 <div class="d-flex align-items-center justify-content-between">
                     <div>3 Активных обьявления</div>
-                    <button class="btn btn-lg btn-outline-dark"><i class="fa-solid fa-plus"></i> Подписаться</button>
+                    <button class="btn btn-lg btn-outline-secondary"><i class="fa-solid fa-plus"></i> Подписаться</button>
                 </div>
             </div>
             <div class="seller p-3 my-2">
@@ -74,7 +74,7 @@
                         <div class="col d-inline-flex flex-column">
                             <p>[13 ставок]</p>
                             <button type="button" class="w-50 btn btn-lg btn-warning mb-2">Сделать ставку</button>
-                            <button type="button" class="w-50 btn btn-lg btn-outline-dark mb-2">Купить сейчас</button>
+                            <button type="button" class="w-50 btn btn-lg btn-outline-secondary mb-2">Купить сейчас</button>
                         </div>
                     </div>
                     <hr>

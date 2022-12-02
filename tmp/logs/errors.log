@@ -980,3 +980,965 @@ Stack trace:
 ====================
 [2022-12-01 14:04:29] Текст ошибки: Trying to access array offset on value of type bool | Файл: D:\domains\saleek\vendor\core\Cache.php | Строка: 25
 ====================
+[2022-12-01 17:06:03] Текст ошибки: Не найден язык login | Файл: D:\domains\saleek\app\widgets\language\Language.php | Строка: 41
+====================
+[2022-12-02 09:45:55] Текст ошибки: Контроллер app\controllers\AccountController не найден | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-12-02 09:46:21] Текст ошибки: Контроллер app\controllers\AccountController не найден | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 44
+====================
+[2022-12-02 10:50:25] Текст ошибки: Undefined variable $tpl | Файл: D:\domains\saleek\app\views\Main\index.php | Строка: 25
+====================
+[2022-12-02 11:15:29] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:15:29] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:15:29] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:15:29] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:15:29] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:16:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 11:37:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:37:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:37:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:37:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:37:01] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:28] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:28] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:28] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:28] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:28] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:53] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:53] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:53] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:53] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:38:53] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:11] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:11] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:11] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:11] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:11] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:16] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:16] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:16] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:16] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 11:59:16] Текст ошибки: Undefined variable $i | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: Undefined array key "childs" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:01:57] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:01:57] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:31:28] Текст ошибки: Cannot use a scalar value as an array | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:31:28] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-12-02 12:33:51] Текст ошибки: Cannot access offset of type string on string | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:00] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:23] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:23] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:34:35] Текст ошибки: Trying to access array offset on value of type int | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 98
+====================
+[2022-12-02 12:34:35] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 95
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:36:39] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:37:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:38:48] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:04] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:40:15] Текст ошибки: Undefined array key "children" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:44:06] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:44:27] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:44:28] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, int given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 96
+====================
+[2022-12-02 12:49:57] Текст ошибки: Undefined array key "parent_id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 91
+====================
+[2022-12-02 12:49:57] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 91
+====================
+[2022-12-02 12:50:17] Текст ошибки: Undefined array key "parent_id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 92
+====================
+[2022-12-02 12:50:17] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 92
+====================
+[2022-12-02 12:50:22] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 92
+====================
+[2022-12-02 12:50:37] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, string given | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 92
+====================
+[2022-12-02 12:53:07] Текст ошибки: Undefined constant "app\widgets\menu\parent_id" | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 93
+====================
+[2022-12-02 13:47:38] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 13:47:38] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 13:47:38] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 13:47:38] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 13:47:38] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 6
+====================
+[2022-12-02 14:19:42] Текст ошибки: Required parameter $level follows optional parameter $tab | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 88
+====================
+[2022-12-02 14:19:42] Текст ошибки: Too few arguments to function app\widgets\menu\Menu::getMenuHtml(), 1 passed in D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php on line 7 and exactly 3 expected | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 0
+====================
+[2022-12-02 14:20:31] Текст ошибки: Required parameter $level follows optional parameter $tab | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 88
+====================
+[2022-12-02 14:20:31] Текст ошибки: Too few arguments to function app\widgets\menu\Menu::getMenuHtml(), 2 passed in D:\domains\saleek\app\widgets\menu\Menu.php on line 51 and exactly 3 expected | Файл: D:\domains\saleek\app\widgets\menu\Menu.php | Строка: 0
+====================
+[2022-12-02 14:20:54] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 5
+====================
+[2022-12-02 14:20:54] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 5
+====================
+[2022-12-02 14:20:54] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 5
+====================
+[2022-12-02 14:20:54] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 5
+====================
+[2022-12-02 14:20:54] Текст ошибки: Undefined variable $level | Файл: D:\domains\saleek\app\widgets\menu\sidebar_menu_tpl.php | Строка: 5
+====================
+[2022-12-02 15:59:48] Текст ошибки: Метод app\controllers\UserController::signupAction не найден | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 41
+====================
+[2022-12-02 15:59:52] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
