@@ -22,12 +22,12 @@
             <div class="container-lg">
                 <div class="row justify-content-between">
                     <div class="col-4">
-                        <?php __('tpl_hello') ?>! <a href=""><?php __('tpl_login') ?></a> <?php __('tpl_or') ?> <a href=""><?php __('tpl_signup') ?></a>
+                        <?php __('tpl_hello') ?>! <a href="user/login"><?php __('tpl_login') ?></a> <?php __('tpl_or') ?> <a href="user/signup"><?php __('tpl_signup') ?></a>
                     </div>
                     <div class="col-6 d-none d-lg-block">
                         <div class="d-flex justify-content-end">
                             <div class="ms-3 nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <?php __('tpl_profile') ?>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">

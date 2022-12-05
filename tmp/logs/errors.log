@@ -1942,3 +1942,283 @@ Stack trace:
 ====================
 [2022-12-02 15:59:52] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
 ====================
+[2022-12-02 16:04:50] Текст ошибки: Не найден вид D:\domains\saleek/app/views/User/signup.php | Файл: D:\domains\saleek\vendor\core\View.php | Строка: 32
+====================
+[2022-12-02 16:05:41] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-12-02 20:31:51] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-12-04 00:06:21] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-12-04 00:06:23] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-12-04 12:19:16] Текст ошибки: Страница не найдена | Файл: D:\domains\saleek\vendor\core\Router.php | Строка: 47
+====================
+[2022-12-04 12:34:32] Текст ошибки: Too few arguments to function app\models\Product::getProduct(), 1 passed in D:\domains\saleek\app\controllers\ProductController.php on line 9 and exactly 2 expected | Файл: D:\domains\saleek\app\models\Product.php | Строка: 9
+====================
+[2022-12-04 12:35:21] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 11
+====================
+[2022-12-04 12:35:44] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 11
+====================
+[2022-12-04 12:43:02] Текст ошибки: Call to undefined method app\models\Product::setMeta() | Файл: D:\domains\saleek\app\models\Product.php | Строка: 11
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $4 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $79000 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/4.jpg | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $2022-11-23 11:47:15 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $4 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $Смартфон Samsung Galaxy S22 Ultra 128GB Phantom Black | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: compact(): Undefined variable $Смартфон Samsung Galaxy S22 Ultra 128GB Phantom Black можно погружать под воду на глубину до 1,5 м благодаря пылевлагозащите степени IP68. Основной блок включает в себя четыре камеры на 108, 10, 10 и 12 Мп. Безрамочный экран диагональю 6,8 дюйма выполнен по технологии Dynamic AMOLED 2X с частотой обновления 120 Гц. Тип стекла — Gorilla Glass Victus. Возможна съемка в 30-кратном зуме. Телефон поддерживает функции отображения даты и времени в спящем режиме и управления жестами. Под дисплеем размещен сканер отпечатка пальца. Для хранения файлов доступно 128 Гб памяти. Емкость аккумулятора равна 5000 мА*ч. Доступна быстрая и беспроводная зарядка. За стабильную работу устройства отвечает восьмиядерный процессор Snapdragon 8 Gen 1. Размер оперативной памяти — 8 Гб. Установлен датчик силы нажатия. В комплекте идет стилус.
+ | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 13
+====================
+[2022-12-04 12:45:01] Текст ошибки: Undefined variable $productInfo | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 12:45:01] Текст ошибки: Trying to access array offset on value of type null | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 12:45:31] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 12:49:34] Текст ошибки: Undefined array key "date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 84
+====================
+[2022-12-04 17:37:48] Текст ошибки: Undefined variable $productInfo | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:37:48] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:38:18] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:38:45] Текст ошибки: compact(): Undefined variable $test | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:38:45] Текст ошибки: Undefined variable $product | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:38:45] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:38:53] Текст ошибки: compact(): Undefined variable $test | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $6 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $9800 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/6.jpg | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $2022-11-22 12:47:22 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $6 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $1 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $Смартфон Xiaomi Redmi Note 10S 128 ГБ серый | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $Смартфон Xiaomi Redmi Note 10S с безрамочным AMOLED-экраном диагональю 6.4 дюйма способен буквально влюбить в себя с первого взгляда. Он облачен в корпус из черного пластика. Дисплей защищен от царапин покрытием Corning Gorilla Glass 3.
+Любители мобильных игр останутся довольны этим устройством, ведь у него есть процессор на 8 ядер и сразу 6 ГБ оперативной памяти. Это значит, что даже требовательные к ресурсу приложения будут работать шустро и без зависаний. Объем встроенной памяти составляет 128 ГБ. Этого хватает для хранения большого количества необходимого пользователю смартфона Xiaomi Redmi Note 10S софта и файлов. Конфигурация устройства дополнена стереодинамиками. За безопасность и конфиденциальность личных данных отвечает сканер отпечатков пальцев, расположенный сбоку. | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $3 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $6 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/6/1.jpg | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $4 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $6 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/6/2.jpg | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $7 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $6 | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: compact(): Undefined variable $/public/uploads/images/smartphones/6/3.jpg | Файл: D:\domains\saleek\app\controllers\ProductController.php | Строка: 14
+====================
+[2022-12-04 17:40:15] Текст ошибки: Undefined variable $productInfo | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:40:15] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:41:24] Текст ошибки: Undefined variable $productInfo | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:41:24] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:41:51] Текст ошибки: Undefined variable $productInfo | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:41:51] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:42:03] Текст ошибки: Undefined variable $productInfo | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:42:03] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:19] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:43:39] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "id" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 61
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "title" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 67
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "price" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 71
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "add_date" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 82
+====================
+[2022-12-04 17:47:10] Текст ошибки: Undefined array key "description" | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 107
+====================
+[2022-12-04 17:48:02] Текст ошибки: Undefined variable $productInfo | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 17:48:02] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\domains\saleek\app\views\Product\view.php | Строка: 2
+====================
+[2022-12-04 21:34:39] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 4
+====================
+[2022-12-04 21:34:39] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 4
+====================
+[2022-12-04 21:34:39] Текст ошибки: Array to string conversion | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 4
+====================
+[2022-12-04 21:37:30] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 5
+====================
+[2022-12-04 21:37:30] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 5
+====================
+[2022-12-04 21:37:30] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 5
+====================
+[2022-12-04 21:38:16] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 5
+====================
+[2022-12-04 21:38:16] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 5
+====================
+[2022-12-04 21:38:16] Текст ошибки: foreach() argument must be of type array|object, int given | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 5
+====================
+[2022-12-05 11:16:25] Текст ошибки: Undefined array key "" | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 13
+====================
+[2022-12-05 11:16:25] Текст ошибки: Undefined array key "" | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 13
+====================
+[2022-12-05 11:16:25] Текст ошибки: Undefined array key "" | Файл: D:\domains\saleek\app\widgets\carousel\carousel_tpl.php | Строка: 13
+====================
