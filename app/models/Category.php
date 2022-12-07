@@ -4,7 +4,7 @@ namespace app\models;
 
 use core\Db;
 
-class Main extends AppModel
+class Category extends AppModel
 {
     public function getProducts($lang)
     {

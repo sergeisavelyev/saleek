@@ -20,6 +20,7 @@ class Menu
     protected $prepend = '';
     protected $language;
     protected $maxLevel;
+    protected $route;
 
     public function __construct($options = [])
     {
@@ -47,7 +48,6 @@ class Menu
             JOIN category_description cd ON c.id = cd.category_id 
             WHERE language_id = ?', $this->language['language_id']);
             $this->tree = $this->getTree();
-            // debug($this->tree);
             $this->menuHtml = $this->getMenuHtml($this->tree);
             if ($this->cache) {
                 $cache->set("{$this->cacheKey}_{$this->language['code']}", $this->menuHtml, $this->cache);
