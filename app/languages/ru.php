@@ -9,8 +9,16 @@ return [
     'tpl_profile' => 'Мой Saleek',
 
     'tpl_wishlist' => 'Список желаний',
-    'tpl_cart' => 'Корзина',
 
     'tpl_search_category' => 'Поиск по категории',
     'tpl_search' => 'Поиск',
+
+    'tpl_cart' => 'Корзина',
+    'tpl_cart_empty' => 'Корзина пуста',
+    'tpl_cart_continue' => 'Продолжить покупки',
+    'tpl_cart_trash' => 'Очистить корзину',
+    'tpl_cart_checkout' => 'Оформить заказ',
+    'tpl_cart_product' => 'Товар',
+    'tpl_cart_price' => 'Цена',
+    'tpl_cart_sum' => 'Сумма',
 ];

@@ -46,7 +46,6 @@ $(function() {
             data: {id: id},
             datatype: "html",
             success: function (data) {
-                // $('#cart-info').html(data);
                 showCart(data);
             }, 
             error: function () {
@@ -54,6 +53,20 @@ $(function() {
             }
         })
     });
+
+    $('#cart-show').click(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: "cart/show",
+            method: "GET",
+            success: function (data) {
+                showCart(data);
+            },
+            error: function () {
+                alert('Error!');
+            }
+        })
+    })
 
     //
 });

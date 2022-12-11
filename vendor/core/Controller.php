@@ -41,4 +41,17 @@ abstract class Controller
             'keywords' => $keywords,
         ];
     }
+
+    public function isAjax(): bool
+    {
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
+    }
+
+    public function loadView($file, $vars = [])
+    {
+        extract($vars);
+        $prefix = str_replace('\\', '/', $this->route['admin_prefix']);
+        require APP . "/views/{$prefix}{$this->route['controller']}/{$file}.php";
+        die;
+    }
 }

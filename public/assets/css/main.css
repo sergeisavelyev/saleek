@@ -271,3 +271,10 @@ footer {
 .similar {
     height: 17rem;
 }
+
+/* Modal cart */
+
+.cart-table img {
+    max-height: 50px;
+    max-width: 100px;
+}

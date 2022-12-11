@@ -20,7 +20,25 @@ class CartController extends AppController
             return false;
         }
         $this->model->addToCart($product);
-        debug($_SESSION);
-        die;
+        if ($this->isAjax()) {
+            $this->loadView('cart_modal');
+        }
+        redirect();
+        return true;
+    }
+
+    public function deleteAction()
+    {
+        $id = get('id');
+        if (!$id) {
+            return false;
+        }
+        $this->model->deleteFromCart($id);
+        redirect();
+    }
+
+    public function showAction()
+    {
+        $this->loadView('cart_modal');
     }
 }

@@ -43,7 +43,7 @@
                                 <?php new \app\widgets\language\Language(); ?>
                             </div>
                             <div class="ms-3"><i class="fa-solid fa-heart"></i> <?php __('tpl_wishlist') ?></div>
-                            <div class="ms-3"><i class="fa-solid fa-cart-shopping"></i> <?php __('tpl_cart') ?></div>
+                            <div class="ms-3"><a href="<?= base_url() . "cart/show" ?>" id="cart-show" data-bs-toggle="modal" data-bs-target="#cart-modal"><i class="fa-solid fa-cart-shopping"></i> <?php __('tpl_cart') ?></a></div>
                         </div>
                     </div>
                     <div class="col-5 d-lg-none d-flex justify-content-end">
@@ -72,7 +72,7 @@
                                         <div class="col-4"><i class="fa-solid fa-heart"></i> Список желаний</div>
                                     </li>
                                     <li class="nav-item">
-                                        <div class="col-4"><i class="fa-solid fa-cart-shopping"></i> Корзина</div>
+                                        <div class="col-4"><a href="" data-bs-toggle="modal" data-bs-target="#cart-modal"><i class="fa-solid fa-cart-shopping"></i> Корзина</a></div>
                                     </li>
                                 </ul>
                             </div>
