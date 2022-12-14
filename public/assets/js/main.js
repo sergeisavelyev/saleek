@@ -41,32 +41,66 @@ $(function() {
         e.preventDefault();
         const id = $(this).data("id");
         $.ajax({
-            url: "cart/add",
-            method: "GET",
+            url: 'cart/add',
+            method: 'GET',
             data: {id: id},
-            datatype: "html",
+            datatype: 'html',
             success: function (data) {
                 showCart(data);
             }, 
             error: function () {
                 alert('Error!');
             }
-        })
+        });
     });
 
     $('#cart-show').click(function (e) {
         e.preventDefault();
         $.ajax({
-            url: "cart/show",
-            method: "GET",
+            url: 'cart/show',
+            method: 'GET',
             success: function (data) {
                 showCart(data);
             },
             error: function () {
                 alert('Error!');
             }
-        })
-    })
+        });
+    });
+    
+    $('#cart-modal .modal-cart-content').on('click', '.delete-from-cart', function (e) {
+        e.preventDefault();
+        const id = $(this).data('id');
+        $.ajax({
+            url: 'cart/delete',
+            method: 'GET',
+            data: {id: id},
+            datatype: 'html',
+            success: function (data) {
+                showCart(data);
+            },
+            error: function () {
+                alert('Error!');
+            }
+        });
+    });
 
+    
+    $('#cart-modal .modal-cart-content').on('click', '#clear-cart', function () {
+        $.ajax({
+            url: 'cart/clear',
+            method: 'GET',
+            datatype: 'html',
+            success: function (data) {
+                showCart(data);
+            },
+            error: function () {
+                alert('Error!');
+            }
+        });
+    });
+
+
+    
     //
 });

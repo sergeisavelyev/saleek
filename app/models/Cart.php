@@ -32,9 +32,6 @@ class Cart extends AppModel
 
     public function deleteFromCart($deleteId)
     {
-        if ($deleteId == 228) {
-            unset($_SESSION['cart'], $_SESSION['cart.sum']);
-        }
         foreach ($_SESSION['cart'] as $id => $product) {
             if ($deleteId == $id) {
                 $_SESSION['cart.sum'] = $_SESSION['cart.sum'] - intval($_SESSION['cart'][$id]['price']);

@@ -17,7 +17,7 @@
                         <th scope="row"><img class="" src="<?php echo h($product['img']) ?>" alt=""></th>
                         <td><?php echo h($product['title']) ?></td>
                         <td>₽ <?php echo h($product['price']) ?></td>
-                        <td><a href="<?= base_url() . "cart/delete/?id={$product['id']}" ?>"><i class="fa-solid fa-trash"></i></a></td>
+                        <td><a class="delete-from-cart" href="<?= base_url() . "cart/delete/?id={$product['id']}" ?>" data-id="<?php echo $product['id'] ?>"><i class="fa-solid fa-trash"></i></a></td>
                     </tr>
                 <?php endforeach; ?>
                 <tr>
@@ -38,6 +38,6 @@
 </div>
 <div class="modal-footer">
     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"><?php __('tpl_cart_continue') ?></button>
-    <a href="<?= base_url() . "cart/delete/?id=228" ?>"><button type="button" class="btn btn-outline-secondary"><?php __('tpl_cart_trash') ?></button></a>
+    <button id="clear-cart" type="button" class="btn btn-outline-secondary"><?php __('tpl_cart_trash') ?></button>
     <button type="button" class="btn btn-warning"><?php __('tpl_cart_checkout') ?></button>
 </div>

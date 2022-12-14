@@ -34,11 +34,25 @@ class CartController extends AppController
             return false;
         }
         $this->model->deleteFromCart($id);
+        if ($this->isAjax()) {
+            $this->loadView('cart_modal');
+        }
         redirect();
+        return true;
     }
 
     public function showAction()
     {
         $this->loadView('cart_modal');
+    }
+
+    public function clearAction()
+    {
+        if (empty($_SESSION['cart'])) {
+            return false;
+        }
+        unset($_SESSION['cart'], $_SESSION['cart.sum']);
+        $this->loadView('cart_modal');
+        return true;
     }
 }
