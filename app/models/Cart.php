@@ -39,4 +39,16 @@ class Cart extends AppModel
             }
         }
     }
+
+    public static function translateCart($lang)
+    {
+        if (empty($_SESSION['cart'])) {
+            return;
+        }
+        $ids = implode(',', array_keys($_SESSION['cart']));
+        $products = Db::row("SELECT p.id, pd.title FROM product p JOIN product_description pd ON p.id = pd.product_id WHERE p.id IN ($ids) AND pd.language_id = ?", $lang['language_id']);
+        foreach ($products as $product) {
+            $_SESSION['cart'][$product['id']]['title'] = $product['title'];
+        }
+    }
 }
