@@ -5,6 +5,7 @@ namespace app\controllers;
 use app\widgets\language\Language;
 use core\App;
 use core\Controller;
+use core\Db;
 
 class AppController extends Controller
 {
@@ -15,6 +16,12 @@ class AppController extends Controller
         App::$app->setProperty('language', Language::getLanguage(App::$app->getProperty('languages')));
 
         $lang = App::$app->getProperty('language');
+
+        $categories = Db::unique('SELECT c.*, cd.* FROM category c 
+            JOIN category_description cd ON c.id = cd.category_id 
+            WHERE language_id = ?', $lang['language_id']);
+        App::$app->setProperty('categories', $categories);
+
         \core\Language::load($lang['code'], $this->route);
     }
 }
