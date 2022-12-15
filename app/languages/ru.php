@@ -13,6 +13,8 @@ return [
     'tpl_search_category' => 'Поиск по категории',
     'tpl_search' => 'Поиск',
 
+    'tpl_breadcrumbs_home' => '<i class="fa-solid fa-house"></i>',
+
     'tpl_cart' => 'Корзина',
     'tpl_cart_empty' => 'Корзина пуста',
     'tpl_cart_continue' => 'Продолжить покупки',

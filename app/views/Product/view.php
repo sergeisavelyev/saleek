@@ -1,9 +1,8 @@
 <div class="container-lg">
     <?php foreach ($productInfo as $product) : ?>
-        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb" class="mt-2">
+        <nav aria-label="breadcrumb" class="mt-2">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Смартфоны</li>
+                <?= $breadcrumbs ?>
             </ol>
         </nav>
         <div class="row">
@@ -48,7 +47,7 @@
                                 <p>[<?php __('product_view_desc_views') ?>: 13]</p>
                                 <a href="<?= base_url() . "cart/add/?id={$product['id']}" ?>" id="add-to-cart" data-id="<?php echo $product['id'] ?>">
                                     <button type="button" class="w-50 btn btn-lg btn-outline-secondary mb-2">
-                                        <?php __('product_view_desc_add_to_cart') ?>
+                                        <?php __('product_view_desc_add_to_cart'); ?>
                                     </button>
                                 </a>
                             </div>
