@@ -23,4 +23,6 @@ return [
     'tpl_cart_product' => 'Товар',
     'tpl_cart_price' => 'Цена',
     'tpl_cart_sum' => 'Сумма',
+
+    'tpl_category_empty_products' => 'Список товаров пуст...',
 ];

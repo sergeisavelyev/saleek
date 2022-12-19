@@ -23,4 +23,6 @@ return [
     'tpl_cart_product' => 'Product',
     'tpl_cart_price' => 'Price',
     'tpl_cart_sum' => 'Amount',
+
+    'tpl_category_empty_products' => 'Product list is empty...',
 ];
