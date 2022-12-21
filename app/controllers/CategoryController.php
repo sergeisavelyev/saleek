@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use core\App;
+use core\Pagination;
 
 class CategoryController extends AppController
 {
@@ -22,5 +23,9 @@ class CategoryController extends AppController
         $products = $this->model->getProducts($lang, $ids);
         $this->setMeta($categories[$categoryId[0]['id']]['title'], 'desc', 'keywords');
         $this->set(compact('products'));
+
+        $pag = new Pagination(3, 50, 10);
+        debug($pag->getLink(3));
+        debug($pag->uri);
     }
 }
