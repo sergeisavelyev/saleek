@@ -29,6 +29,45 @@ class Pagination
         $right1 = null;
         $left2 = null;
         $right2 = null;
+
+        if ($this->currentPage != 1) {
+            $back = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage - 1)}'>&#171;</a></li>";
+        }
+
+        if ($this->currentPage != $this->countPages) {
+            $forward = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage + 1)}'>&#187;</a></li>";
+        }
+
+        if ($this->currentPage > 3) {
+            $start = "<li class='page-item'><a class='page-link' href='{$this->getLink(1)}'>В начало</a></li>";
+        }
+
+        if ($this->currentPage < ($this->countPages - 2)) {
+            $end = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->countPages)}'>В конец</a></li>";
+        }
+
+        if ($this->currentPage > 1) {
+            $left1 = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage - 1)}'>" . $this->currentPage - 1 . "</a></li>";
+        }
+
+        if ($this->currentPage < $this->countPages) {
+            $right1 = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage + 1)}'>" . $this->currentPage + 1 . "</a></li>";
+        }
+
+        if ($this->currentPage > 2) {
+            $left2 = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage - 2)}'>" . $this->currentPage - 2 . "</a></li>";
+        }
+
+        if ($this->currentPage < ($this->countPages - 2)) {
+            $right2 = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage + 2)}'>" . $this->currentPage + 2 . "</a></li>";
+        }
+
+        return "<nav aria-label='Page navigation example'>
+                    <ul class='pagination'>{$start}{$back}{$left2}{$left1}
+                        <li class='page-item'><a class='page-link active' href='#'>{$this->currentPage}</a></li>
+                        {$right1}{$right2}{$forward}{$end}
+                    </ul>
+                </nav>";
     }
 
     public function getLink($page)
@@ -45,6 +84,11 @@ class Pagination
                 return $this->uri . "?page={$page}";
             }
         }
+    }
+
+    public function __toString()
+    {
+        return $this->getHtml();
     }
 
     public function getStart()

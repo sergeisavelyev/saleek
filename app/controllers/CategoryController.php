@@ -24,8 +24,7 @@ class CategoryController extends AppController
         $this->setMeta($categories[$categoryId[0]['id']]['title'], 'desc', 'keywords');
         $this->set(compact('products'));
 
-        $pag = new Pagination(3, 50, 10);
-        debug($pag->getLink(3));
-        debug($pag->uri);
+        $pag = new Pagination(4, 100, 10);
+        debug($pag->getHtml());
     }
 }
