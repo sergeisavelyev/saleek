@@ -278,3 +278,19 @@ footer {
     max-height: 50px;
     max-width: 100px;
 }
+
+/* Pagination */
+
+.page-link {
+    color: #6c757d;
+}
+
+.page-link.active {
+    color: white;
+    background-color: #6c757d !Important;
+    border: solid 1px #6c757d !Important;
+}
+
+.page-link:hover {
+    color: #e0b700;
+}

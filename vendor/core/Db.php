@@ -42,7 +42,7 @@ class Db
         return $stmt;
     }
 
-    public function column($sql, $params = [])
+    public static function column($sql, $params = [])
     {
         $result = self::query($sql, $params);
         return $result->fetchColumn();

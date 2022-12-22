@@ -58,11 +58,11 @@ class Pagination
             $left2 = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage - 2)}'>" . $this->currentPage - 2 . "</a></li>";
         }
 
-        if ($this->currentPage < ($this->countPages - 2)) {
+        if ($this->currentPage < ($this->countPages - 1)) {
             $right2 = "<li class='page-item'><a class='page-link' href='{$this->getLink($this->currentPage + 2)}'>" . $this->currentPage + 2 . "</a></li>";
         }
 
-        return "<nav aria-label='Page navigation example'>
+        return "<nav>
                     <ul class='pagination'>{$start}{$back}{$left2}{$left1}
                         <li class='page-item'><a class='page-link active' href='#'>{$this->currentPage}</a></li>
                         {$right1}{$right2}{$forward}{$end}

@@ -19,5 +19,11 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9">
+                <div class="d-flex justify-content-center mt-4"><?php echo $paginationHtml ?></div>
+            </div>
+        </div>
     </div>
 </div>

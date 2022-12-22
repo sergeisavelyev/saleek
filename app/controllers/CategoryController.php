@@ -20,11 +20,15 @@ class CategoryController extends AppController
         $ids = $this->model->getIds($categoryId[0]['id'], $categories);
         $ids = !$ids ? $categoryId[0]['id'] : $ids .= $categoryId[0]['id'];
 
-        $products = $this->model->getProducts($lang, $ids);
-        $this->setMeta($categories[$categoryId[0]['id']]['title'], 'desc', 'keywords');
-        $this->set(compact('products'));
+        $countProducts = $this->model->getCountProducts($ids);
+        $page = get('page');
+        $perpage = 6;
+        $pagination = new Pagination($page, $countProducts, $perpage);
+        $startProduct = $pagination->getStart();
+        $paginationHtml = $pagination->getHtml();
 
-        $pag = new Pagination(4, 100, 10);
-        debug($pag->getHtml());
+        $products = $this->model->getProducts($lang, $ids, $startProduct, $perpage);
+        $this->setMeta($categories[$categoryId[0]['id']]['title'], 'desc', 'keywords');
+        $this->set(compact('products', 'paginationHtml'));
     }
 }
