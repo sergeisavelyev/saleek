@@ -100,7 +100,10 @@ $(function() {
         });
     });
 
+    // Sort
 
-    
-    //
+    $('#input-sort').change(function () {
+        const value = $(this).val();
+        window.location = PATH + window.location.pathname + '?' + value;
+    })
 });

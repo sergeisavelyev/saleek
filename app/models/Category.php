@@ -29,7 +29,17 @@ class Category extends AppModel
 
     public function getProducts($lang, $ids, $start, $limit)
     {
-        return Db::row("SELECT p.*, pd.* FROM product p JOIN product_description pd ON p.id = pd.product_id WHERE p.category_id IN ($ids) AND pd.language_id = ? ORDER BY id LIMIT $start, $limit", $lang);
+        $order_values = [
+            'title_asc' => 'ORDER BY title ASC',
+            'title_desc' => 'ORDER BY title DESC',
+            'price_asc' => 'ORDER BY price ASC',
+            'price_desc' => 'ORDER BY price DESC',
+        ];
+        $order = '';
+        if (isset($_GET['sort']) && array_key_exists($_GET['sort'], $order_values)) {
+            $order = $order_values[$_GET['sort']];
+        }
+        return Db::row("SELECT p.*, pd.* FROM product p JOIN product_description pd ON p.id = pd.product_id WHERE p.category_id IN ($ids) AND pd.language_id = ? $order LIMIT $start, $limit", $lang);
     }
 
     public function getCountProducts($ids)
