@@ -106,4 +106,25 @@ $(function() {
         const value = $(this).val();
         window.location = PATH + window.location.pathname + '?' + value;
     })
+
+    // Search
+
+    $('#livesearch').keyup(function () {
+        const search = $(this).val();
+        
+        if (search == '') {
+            $('#drop-livesearch').removeClass("active");
+        } else {
+            $.ajax({
+                url: 'search/livesearch',
+                method: 'POST',
+                data: {search: search},
+                datatype: 'html',
+                success: function (data) {
+                    $('#search-result').html(data);
+                    $('#drop-livesearch').addClass(' active');
+                }
+            });
+        }
+    })
 });

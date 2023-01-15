@@ -48,7 +48,7 @@ class Db
         return $result->fetchColumn();
     }
 
-    public static function row($sql, $params)
+    public static function row($sql, $params = [])
     {
         $result = self::query($sql, $params);
         return $result->fetchAll(PDO::FETCH_ASSOC);

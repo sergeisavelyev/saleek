@@ -12,6 +12,8 @@ return [
 
     'tpl_search_category' => 'Search by category',
     'tpl_search' => 'Search',
+    'tpl_search_not_found' => 'No results found for your search',
+    'tpl_max_search' => 'View all results',
 
     'tpl_breadcrumbs_home' => '<i class="fa-solid fa-house"></i>',
 

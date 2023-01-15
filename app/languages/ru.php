@@ -12,6 +12,8 @@ return [
 
     'tpl_search_category' => 'Поиск по категории',
     'tpl_search' => 'Поиск',
+    'tpl_search_not_found' => 'По запросу ничего не найдено',
+    'tpl_max_search' => 'Посмотреть все результаты',
 
     'tpl_breadcrumbs_home' => '<i class="fa-solid fa-house"></i>',
 
