@@ -25,10 +25,9 @@ class CategoryController extends AppController
         $perpage = 6;
         $pagination = new Pagination($page, $countProducts, $perpage);
         $startProduct = $pagination->getStart();
-        $paginationHtml = $pagination->getHtml();
 
         $products = $this->model->getProducts($lang, $ids, $startProduct, $perpage);
         $this->setMeta($categories[$categoryId[0]['id']]['title'], 'desc', 'keywords');
-        $this->set(compact('products', 'paginationHtml'));
+        $this->set(compact('products', 'pagination'));
     }
 }
