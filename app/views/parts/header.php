@@ -102,8 +102,8 @@
                         </div>
                     </div>
                     <div class="col-lg-7 col">
-                        <form class="d-flex search" role="search">
-                            <input class="form-control me-2" type="search" id="livesearch" placeholder="<?php __('tpl_search') ?>" aria-label="Поиск">
+                        <form class="d-flex search" role="search" action="search">
+                            <input class="form-control me-2" id="livesearch" name="search" placeholder="<?php __('tpl_search') ?>" aria-label="Поиск">
                             <button class="btn btn-outline-warning" type="submit"><?php __('tpl_search') ?></button>
                         </form>
                         <div id="drop-livesearch" class="drop-livesearch">

@@ -111,7 +111,6 @@ $(function() {
 
     $('#livesearch').keyup(function () {
         const search = $(this).val();
-        
         if (search == '') {
             $('#drop-livesearch').removeClass("active");
         } else {
@@ -126,5 +125,10 @@ $(function() {
                 }
             });
         }
+    });
+
+    $('#drop-livesearch').on('click', '#search', function () {
+        const search = $('#livesearch').val();
+        window.location = PATH + window.location.pathname + '?search=' + search;
     })
 });
