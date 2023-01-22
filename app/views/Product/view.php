@@ -8,10 +8,13 @@
         <div class="row">
 
             <?php new app\widgets\carousel\Carousel($this->route['id']) ?>
-
             <div class="col-4 product-sidebar h-500">
                 <button type="button" class="btn btn-lg btn-warning w-100 mb-2"><i class="fa-solid fa-pen"></i> <?php __('product_view_contact') ?></button>
-                <button type="button" class="btn btn-lg btn-outline-secondary w-100 mb-2"><i class="fa-solid fa-heart"></i> <?php __('product_view_add_to_wishlist') ?></button>
+                <?php if (in_array($product['id'], core\App::$app->getProperty('wishlist'))) : ?>
+                    <button type="button" id="delete-from-wishlist" data-id="<?php echo $product['id'] ?>" class="btn btn-lg btn-outline-secondary w-100 mb-2"><i class="fa-solid fa-heart-crack"></i> <?php __('tpl_delete_from_wishlist') ?></button>
+                <?php else : ?>
+                    <button type="button" id="add-to-wishlist" data-id="<?php echo $product['id'] ?>" class="btn btn-lg btn-outline-secondary w-100 mb-2"><i class="fa-solid fa-heart"></i> <?php __('product_view_add_to_wishlist') ?></button>
+                <?php endif; ?>
                 <button type="button" class="btn btn-lg btn-outline-secondary w-100 mb-2"><i class="fa-solid fa-phone"></i> <?php __('product_view_call') ?></button>
                 <div class="seller p-3">
                     <p><?php __('product_view_about_seller') ?></p>

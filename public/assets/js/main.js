@@ -112,7 +112,7 @@ $(function() {
     $('#livesearch').keyup(function () {
         const search = $(this).val();
         if (search == '') {
-            $('#drop-livesearch').removeClass("active");
+            $('#drop-livesearch').removeClass('active');
         } else {
             $.ajax({
                 url: 'search/livesearch',
@@ -130,5 +130,41 @@ $(function() {
     $('#drop-livesearch').on('click', '#search', function () {
         const search = $('#livesearch').val();
         window.location = PATH + window.location.pathname + '?search=' + search;
-    })
+    });
+
+
+    // Wishlist
+
+    $('#add-to-wishlist').click(function () {
+        const id = $(this).data('id');
+        $.ajax({
+            url: 'wishlist/add',
+            method: 'GET',
+            data: {id: id},
+            success: function (result) {
+                info = JSON.parse(result);
+                $('#add-to-wishlist').html(info.newText);
+                $('#add-to-wishlist').removeAttr('id').attr('id', 'delete-from-wishlist');
+            },
+            error: function () {
+                alert('Error!');
+            }
+        });
+    });
+
+    $('#delete-from-wishlist').click(function () {
+        const id = $(this).data('id');
+        $.ajax({
+            url: 'wishlist/delete',
+            method: 'GET',
+            data: {id: id},
+            success: function () {
+                //...
+            },
+            error: function () {
+                alert('Error');
+            }
+        });
+    });
+
 });

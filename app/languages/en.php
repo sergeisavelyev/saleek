@@ -9,6 +9,7 @@ return [
     'tpl_profile' => 'My Saleek',
 
     'tpl_wishlist' => 'Wishlist',
+    'tpl_delete_from_wishlist' => 'Delete from wishlist',
 
     'tpl_search_category' => 'Search by category',
     'tpl_search' => 'Search',
