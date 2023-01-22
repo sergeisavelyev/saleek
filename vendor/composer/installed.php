@@ -19,5 +19,14 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'needim/noty' => array(
+            'pretty_version' => 'v3.1.4',
+            'version' => '3.1.4.0',
+            'reference' => '77268c46b6db6a1eb7a920ed7c859fbc8de17993',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../needim/noty',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
     ),
 );

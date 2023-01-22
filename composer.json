@@ -6,6 +6,7 @@
         }
     },
     "require": {
+        "needim/noty": "^3.1"
     }
 
 }
