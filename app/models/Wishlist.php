@@ -31,6 +31,18 @@ class Wishlist extends AppModel
     public function delete_from_wishlist($id)
     {
         $wishlist = self::get_wishlist_ids();
+        $key = array_search($id, $wishlist);
+        if (false !== $key) {
+            unset($wishlist[$key]);
+            if ($wishlist) {
+                $wishlist = implode(',', $wishlist);
+                setcookie('wishlist', $wishlist, time() + 3600 * 24 * 7, '/');
+            } else {
+                setcookie('wishlist', '', time() - 3600);
+            }
+            return true;
+        }
+        return false;
     }
 
     public function get_wishlist_products($lang)

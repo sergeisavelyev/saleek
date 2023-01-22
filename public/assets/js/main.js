@@ -159,25 +159,27 @@ $(function() {
                 $('#add-to-wishlist').removeAttr('id').attr('id', 'delete-from-wishlist');
             },
             error: function () {
-                alert('Error!');
+                showMessage('error', 'Error');
             }
         });
     });
 
     $('#delete-from-wishlist').click(function () {
         const id = $(this).data('id');
-        showMessage('success', id);
-        // $.ajax({
-        //     url: 'wishlist/delete',
-        //     method: 'GET',
-        //     data: {id: id},
-        //     success: function () {
-                
-        //     },
-        //     error: function () {
-        //         alert('Error');
-        //     }
-        // });
+        $.ajax({
+            url: 'wishlist/delete',
+            method: 'GET',
+            data: {id: id},
+            success: function (result) {
+                info = JSON.parse(result);
+                showMessage('success', info.message);
+                $('#delete-from-wishlist').html(info.newText);
+                $('#delete-from-wishlist').removeAttr('id').attr('id', 'add-to-wishlist');
+            },
+            error: function () {
+                showMessage('error', 'Error');
+            }
+        });
     });
 
 });

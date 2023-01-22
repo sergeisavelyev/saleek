@@ -18,7 +18,7 @@ class WishlistController extends AppController
     {
         $id = get('id');
         if (!$id) {
-            $result = ['status' => 'error', 'message' => 'Произошла ошибка'];
+            $result = ['status' => 'error', 'message' => ___('tpl_error')];
             exit(json_encode($result));
         }
 
@@ -32,7 +32,7 @@ class WishlistController extends AppController
             ];
             $this->model->add_to_wishlist($productId);
         } else {
-            $result = ['status' => 'error', 'message' => 'Произошла ошибка'];
+            $result = ['status' => 'error', 'message' => ___('tpl_error')];
         }
         exit(json_encode($result));
     }
@@ -40,6 +40,15 @@ class WishlistController extends AppController
     public function deleteAction()
     {
         $id = get('id');
-        die;
+        if ($this->model->delete_from_wishlist($id)) {
+            $result = [
+                'status' => 'success',
+                'message' => ___('tpl_deleted_from_wishlist'),
+                'newText' => '<i class="fa-solid fa-heart"></i> ' . ___('tpl_add_to_wishlist'),
+            ];
+        } else {
+            $result = ['status' => 'error', 'message' => ___('tpl_error')];
+        }
+        exit(json_encode($result));
     }
 }
