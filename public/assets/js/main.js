@@ -135,6 +135,17 @@ $(function() {
 
     // Wishlist
 
+    function showMessage(status, text) {
+        const noty = new Noty({
+            theme: 'bootstrap-v4',
+            progressBar: false,
+            type: status,
+            timeout: 500,
+            layout: 'topCenter',
+            text: text,
+        }).show();
+    }
+
     $('#add-to-wishlist').click(function () {
         const id = $(this).data('id');
         $.ajax({
@@ -143,6 +154,7 @@ $(function() {
             data: {id: id},
             success: function (result) {
                 info = JSON.parse(result);
+                showMessage(info.status, info.message);
                 $('#add-to-wishlist').html(info.newText);
                 $('#add-to-wishlist').removeAttr('id').attr('id', 'delete-from-wishlist');
             },
@@ -154,17 +166,18 @@ $(function() {
 
     $('#delete-from-wishlist').click(function () {
         const id = $(this).data('id');
-        $.ajax({
-            url: 'wishlist/delete',
-            method: 'GET',
-            data: {id: id},
-            success: function () {
-                //...
-            },
-            error: function () {
-                alert('Error');
-            }
-        });
+        showMessage('success', id);
+        // $.ajax({
+        //     url: 'wishlist/delete',
+        //     method: 'GET',
+        //     data: {id: id},
+        //     success: function () {
+                
+        //     },
+        //     error: function () {
+        //         alert('Error');
+        //     }
+        // });
     });
 
 });

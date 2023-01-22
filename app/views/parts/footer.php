@@ -31,6 +31,7 @@
 <script src="<?= PATH ?>/assets/js/jquery.js"></script>
 <script src="<?= PATH ?>/assets/js/main.js"></script>
 <script src="<?= PATH ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= PATH ?>/assets/needim/noty/lib/noty.js" type="text/javascript"></script>
 </body>
 
 </html>

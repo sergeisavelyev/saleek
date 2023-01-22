@@ -28,6 +28,21 @@ class Wishlist extends AppModel
         }
     }
 
+    public function delete_from_wishlist($id)
+    {
+        $wishlist = self::get_wishlist_ids();
+    }
+
+    public function get_wishlist_products($lang)
+    {
+        $wishlist = self::get_wishlist_ids();
+        if ($wishlist) {
+            $wishlist = implode(',', $wishlist);
+            return Db::row("SELECT p.*, pd.* FROM product p JOIN product_description pd ON p.id = pd.product_id WHERE p.id IN ($wishlist) AND pd.language_id = ? LIMIT 10", $lang['language_id']);
+        }
+        return [];
+    }
+
     public static function get_wishlist_ids()
     {
         $wishlist = $_COOKIE['wishlist'] ?? '';

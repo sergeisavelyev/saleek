@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="<?= PATH ?>/assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="<?= PATH ?>/assets/css/main.css">
     <link rel="icon" sizes="32x32" href="<?= PATH ?>/assets/icon.png">
+    <link href="<?= PATH ?>/assets/needim/noty/lib/noty.css" rel="stylesheet">
     <?= $this->getMeta(); ?>
 </head>
 
@@ -42,7 +43,7 @@
                             <div class="">
                                 <?php new \app\widgets\language\Language(); ?>
                             </div>
-                            <div class="ms-3"><i class="fa-solid fa-heart"></i> <?php __('tpl_wishlist') ?></div>
+                            <div class="ms-3"><a href="<?= base_url() . "wishlist" ?>"><i class="fa-solid fa-heart"></i> <?php __('tpl_wishlist') ?></a></div>
                             <div class="ms-3"><a href="<?= base_url() . "cart/show" ?>" id="cart-show" data-bs-toggle="modal" data-bs-target="#cart-modal"><i class="fa-solid fa-cart-shopping"></i> <?php __('tpl_cart') ?></a></div>
                         </div>
                     </div>
