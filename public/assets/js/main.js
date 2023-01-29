@@ -182,4 +182,24 @@ $(function() {
         });
     });
 
+    // Auth
+
+    $('#signup').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: 'user/signup',
+            type: 'POST',
+            data: new FormData(this),
+			contentType: false,
+			cache: false,
+			processData: false,
+            success: function (result) {
+                const info = JSON.parse(result)
+                showMessage(info.status, info.message);
+            }
+        });
+        // const data = new FormData(this);
+        // console.log(data);
+    });
+
 });

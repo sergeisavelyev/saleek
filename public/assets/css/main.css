@@ -316,3 +316,9 @@ footer {
 .page-link:hover {
     color: #e0b700;
 }
+
+/* User */
+
+.user-action {
+    min-width: 470px;
+}
