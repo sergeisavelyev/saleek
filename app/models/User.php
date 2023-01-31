@@ -18,6 +18,12 @@ class User extends AppModel
         ],
     ];
 
+    public array $labels = [
+        'email' => 'user_signup_input_email',
+        'login' => 'user_signup_input_login',
+        'password' => 'user_signup_input_password',
+    ];
+
     public static function checkAuth(): bool
     {
         return isset($_SESSION['user']);

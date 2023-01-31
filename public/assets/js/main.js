@@ -194,12 +194,11 @@ $(function() {
 			cache: false,
 			processData: false,
             success: function (result) {
-                const info = JSON.parse(result)
+                const info = JSON.parse(result);
+                console.log(info);
                 showMessage(info.status, info.message);
             }
         });
-        // const data = new FormData(this);
-        // console.log(data);
     });
 
 });

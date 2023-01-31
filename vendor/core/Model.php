@@ -3,6 +3,7 @@
 namespace core;
 
 use Valitron\Validator;
+use core\App;
 
 abstract class Model
 {
@@ -26,8 +27,11 @@ abstract class Model
 
     public function validate($data): bool
     {
+        Validator::langDir(APP . '/languages/validator/lang');
+        Validator::lang(App::$app->getProperty('language')['code']);
         $validator = new Validator($data);
         $validator->rules($this->rules);
+        $validator->labels($this->getLabes());
         if ($validator->validate()) {
             return true;
         } else {
@@ -44,5 +48,14 @@ abstract class Model
                 return $errors;
             }
         }
+    }
+
+    public function getLabes(): array
+    {
+        $labels = [];
+        foreach ($this->labels as $k => $v) {
+            $labels[$k] = ___($v);
+        }
+        return $labels;
     }
 }
