@@ -2,6 +2,8 @@
 
 namespace app\models;
 
+use core\Db;
+
 class User extends AppModel
 {
     public array $attributes = [
@@ -23,6 +25,16 @@ class User extends AppModel
         'login' => 'user_signup_input_login',
         'password' => 'user_signup_input_password',
     ];
+
+    public function checkUnique()
+    {
+        $user = Db::findOne('users', 'email', $this->attributes['email']);
+        if (!$user) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
     public static function checkAuth(): bool
     {

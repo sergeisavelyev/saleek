@@ -19,8 +19,19 @@ class UserController extends AppController
                 $message = $this->model->getErrors();
                 $status = 'error';
             } else {
-                $message = 'Success';
-                $status = 'success';
+                $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
+                if ($this->model->checkUnique()) {
+                    $message = ___('user_signup_error_email_unique');
+                    $status = 'error';
+                } else {
+                    if ($this->model->save('users')) {
+                        $message = ___('user_signup_success_register');
+                        $status = 'success';
+                    } else {
+                        $message = ___('user_signup_error_register');
+                        $status = 'error';
+                    }
+                }
             }
             $result = ['status' => $status, 'message' => $message];
             exit(json_encode($result));

@@ -4,6 +4,7 @@ namespace core;
 
 use Valitron\Validator;
 use core\App;
+use core\Db;
 
 abstract class Model
 {
@@ -57,5 +58,10 @@ abstract class Model
             $labels[$k] = ___($v);
         }
         return $labels;
+    }
+
+    public function save($name)
+    {
+        return Db::query("INSERT INTO $name (email, password, login) VALUE (:email, :password, :login)", $this->attributes);
     }
 }
