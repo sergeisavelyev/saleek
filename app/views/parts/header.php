@@ -32,12 +32,13 @@
                                     <?php __('tpl_profile') ?>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Действие</a></li>
-                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                    <?php if (!isset($_SESSION['user'])) : ?>
+                                        <li><a class="dropdown-item" href="#"><?php __('tpl_login') ?></a></li>
+                                        <li><a class="dropdown-item" href="#"><?php __('tpl_signup') ?></a></li>
+                                    <?php else : ?>
+                                        <li><a class="dropdown-item" href="#"><?php __('tpl_profile_btn') ?></a></li>
+                                        <li><a class="dropdown-item" href="#"><?php __('tpl_profile_logout') ?></a></li>
+                                    <?php endif; ?>
                                 </ul>
                             </div>
                             <div class="">

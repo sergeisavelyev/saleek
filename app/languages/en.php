@@ -7,6 +7,8 @@ return [
     'tpl_signup' => 'Registration',
 
     'tpl_profile' => 'My Saleek',
+    'tpl_profile_btn' => 'Profile',
+    'tpl_profile_logout' => 'Logout',
 
     'tpl_error' => 'Error',
 

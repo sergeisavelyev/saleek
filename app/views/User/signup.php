@@ -1,19 +1,19 @@
 <div class="container-lg d-flex flex-column align-items-center mt-2 h-100 ">
     <form method="post" class="p-5 border white neon user-action" id="signup">
-        <h2>Добро пожаловать!</h2>
-        <p>Зарегистрироваться или <a href="/user/login" class="text-decoration-underline">войти в аккаунт</a></p>
+        <h2><?php __('user_signup_welcome') ?></h2>
+        <p><?php __('user_signup_btn') ?> <?php __('user_signup_or') ?> <a href="/user/login" class="text-decoration-underline"><?php __('user_signup_login_btn') ?></a></p>
         <div class="mb-2">
-            <label class="form-label">Адрес электронной почты</label>
+            <label class="form-label"><?php __('user_signup_input_email') ?></label>
             <input type="text" class="form-control" name="email" id="email">
         </div>
         <div class="mb-2">
-            <label class="form-label">Имя пользователя</label>
+            <label class="form-label"><?php __('user_signup_input_login') ?></label>
             <input type="text" class="form-control" name="login" id="login">
         </div>
         <div class="mb-2">
-            <label class="form-label">Пароль</label>
+            <label class="form-label"><?php __('user_signup_input_password') ?></label>
             <input type="password" class="form-control" name="password" id="password">
         </div>
-        <button type="submit" class="btn btn-outline-warning w-100 mt-3">Войти</button>
+        <button type="submit" class="btn btn-outline-warning w-100 mt-3"><?php __('user_signup_btn') ?></button>
     </form>
 </div>

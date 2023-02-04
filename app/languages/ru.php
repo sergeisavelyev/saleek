@@ -7,6 +7,8 @@ return [
     'tpl_signup' => 'Зарегистрироваться',
 
     'tpl_profile' => 'Мой Saleek',
+    'tpl_profile_btn' => 'Профиль',
+    'tpl_profile_logout' => 'Выйти',
 
     'tpl_error' => 'Ошибка',
 

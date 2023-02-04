@@ -60,9 +60,9 @@ class Db
         return $result->fetchAll(PDO::FETCH_UNIQUE | PDO::FETCH_ASSOC);
     }
 
-    public static function findOne($table, $name, $needle)
+    public static function findOne($table, $sql, $params)
     {
-        $result = self::query("SELECT * FROM $table WHERE $name = ?", $needle);
+        $result = self::query("SELECT * FROM $table WHERE $sql", $params);
         return $result->fetchAll(PDO::FETCH_UNIQUE | PDO::FETCH_ASSOC);
     }
 }

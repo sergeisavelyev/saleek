@@ -37,10 +37,27 @@ class UserController extends AppController
             exit(json_encode($result));
         }
 
-        $this->setMeta(___('user_signup_signup_btn'));
+        $this->setMeta(___('user_signup_btn'));
     }
 
     public function loginAction()
     {
+        if (User::checkAuth()) {
+            redirect(base_url());
+        }
+
+        if (!empty($_POST)) {
+            if ($this->model->login()) {
+                $message = ___('user_login_success_login');
+                $status = 'success';
+            } else {
+                $message = ___('user_login_error_login');
+                $status = 'error';
+            }
+            $result = ['status' => $status, 'message' => $message];
+            exit(json_encode($result));
+        }
+
+        $this->setMeta(___('user_login'));
     }
 }

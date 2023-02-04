@@ -195,11 +195,35 @@ $(function() {
 			processData: false,
             success: function (result) {
                 const info = JSON.parse(result);
-                $('#signup')[0].reset();
                 showMessage(info.status, info.message);
+                if (info.status == 'success') {
+                    $('#signup')[0].reset();
+                }
             },
             error: function () {
                 showMessage('error', 'Error');
+            }
+        });
+    });
+
+    $('#login').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: 'user/login',
+            type: 'POST',
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData: false,
+            success: function (result) {
+                const info = JSON.parse(result);
+                showMessage(info.status, info.message);
+                if (info.status == 'success') {
+                    setTimeout(() => window.location = PATH + window.location.pathname, 750);
+                }
+            },
+            error: function () {
+                alert('Error');
             }
         });
     });

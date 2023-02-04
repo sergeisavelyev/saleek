@@ -26,9 +26,9 @@ class User extends AppModel
         'password' => 'user_signup_input_password',
     ];
 
-    public function checkUnique()
+    public function checkUnique(): bool
     {
-        $user = Db::findOne('users', 'email', $this->attributes['email']);
+        $user = Db::findOne('users', 'email = ?', $this->attributes['email']);
         if (!$user) {
             return false;
         } else {
@@ -39,5 +39,35 @@ class User extends AppModel
     public static function checkAuth(): bool
     {
         return isset($_SESSION['user']);
+    }
+
+    public function login($admin = false)
+    {
+        $login = $_POST['email'];
+        $password = $_POST['password'];
+        if ($login && $password) {
+            if ($admin) {
+                $user = Db::findOne('users', 'email = ? AND role = admin', $login);
+            } else {
+                $user = Db::findOne('users', 'email = ?', $login);
+            }
+        } else {
+            return false;
+        }
+
+        if ($user) {
+            foreach ($user as $key => $user_data) {
+                if (password_verify($password, $user_data['password'])) {
+                    foreach ($user_data as $k => $v) {
+                        if ($k != 'password') {
+                            $_SESSION['user'][$k] = $v;
+                        }
+                    }
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 }

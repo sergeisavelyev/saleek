@@ -56,7 +56,7 @@ function get($key, $type = 'i')
  * @return int|float|string
  */
 
-function post($key, $type = 'i')
+function post($key, $type = 's')
 {
     $param = $key;
     $$param = $POST[$param] ?? '';
