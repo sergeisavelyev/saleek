@@ -195,8 +195,11 @@ $(function() {
 			processData: false,
             success: function (result) {
                 const info = JSON.parse(result);
-                console.log(info);
+                $('#signup')[0].reset();
                 showMessage(info.status, info.message);
+            },
+            error: function () {
+                showMessage('error', 'Error');
             }
         });
     });
