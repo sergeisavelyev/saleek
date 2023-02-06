@@ -37,7 +37,7 @@
                                         <li><a class="dropdown-item" href="#"><?php __('tpl_signup') ?></a></li>
                                     <?php else : ?>
                                         <li><a class="dropdown-item" href="#"><?php __('tpl_profile_btn') ?></a></li>
-                                        <li><a class="dropdown-item" href="#"><?php __('tpl_profile_logout') ?></a></li>
+                                        <li><a class="dropdown-item" href="user/logout"><?php __('tpl_profile_logout') ?></a></li>
                                     <?php endif; ?>
                                 </ul>
                             </div>

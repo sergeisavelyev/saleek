@@ -60,4 +60,12 @@ class UserController extends AppController
 
         $this->setMeta(___('user_login'));
     }
+
+    public function logoutAction()
+    {
+        if ($this->model->checkAuth()) {
+            unset($_SESSION['user']);
+            redirect(base_url());
+        }
+    }
 }
