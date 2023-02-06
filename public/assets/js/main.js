@@ -77,7 +77,12 @@ $(function() {
             data: {id: id},
             datatype: 'html',
             success: function (data) {
-                showCart(data);
+                const url = window.location.toString();
+                if(url.indexOf('cart/view') !== -1) {
+                    window.location = url;
+                } else {
+                    showCart(data);
+                }
             },
             error: function () {
                 alert('Error!');
