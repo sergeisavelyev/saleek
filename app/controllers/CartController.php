@@ -55,4 +55,9 @@ class CartController extends AppController
         $this->loadView('cart_modal');
         return true;
     }
+
+    public function viewAction()
+    {
+        $this->setMeta(___('tpl_cart'));
+    }
 }

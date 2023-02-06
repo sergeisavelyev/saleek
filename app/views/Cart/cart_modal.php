@@ -39,5 +39,5 @@
 <div class="modal-footer">
     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"><?php __('tpl_cart_continue') ?></button>
     <button id="clear-cart" type="button" class="btn btn-outline-secondary"><?php __('tpl_cart_trash') ?></button>
-    <button type="button" class="btn btn-warning"><?php __('tpl_cart_checkout') ?></button>
+    <button type="button" class="btn btn-warning"><a href="cart/view"><?php __('tpl_cart_checkout') ?></a></button>
 </div>
