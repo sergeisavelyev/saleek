@@ -41,24 +41,38 @@
         <?php endif; ?>
         <?php if (empty($_SESSION['user'])) : ?>
             <div class="container-lg d-flex flex-column align-items-center mt-2 h-100 ">
-                <form method="post" class="p-5 border white  user-action" id="signup">
-                    <h2><?php __('cart_view_input_title') ?></h2>
+                <form method="post" class="p-5 border white  user-action" id="to-checkout">
+                    <p><?php __('cart_view_input_title') ?></p>
                     <div class="mb-2">
                         <label class="form-label"><?php __('cart_view_email_input') ?></label>
-                        <input type="text" class="form-control" name="email" id="email" required>
+                        <input type="text" class="form-control" name="email" id="email">
                     </div>
                     <div class="mb-2">
                         <label class="form-label"><?php __('cart_view_name_input') ?></label>
-                        <input type="text" class="form-control" name="login" id="login" required>
+                        <input type="text" class="form-control" name="login" id="login">
                     </div>
                     <div class="mb-2">
                         <label class="form-label"><?php __('cart_view_password_input') ?></label>
-                        <input type="password" class="form-control" name="password" id="password" required>
+                        <input type="password" class="form-control" name="password" id="password">
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label"><?php __('cart_view_note_input') ?></label>
+                        <textarea class="form-control" name="note"></textarea>
                     </div>
                     <button type="submit" class="btn btn-outline-warning w-100 mt-3"><?php __('cart_view_order_btn') ?></button>
                 </form>
             </div>
         <?php else : ?>
+            <div class="container-lg d-flex flex-column align-items-center mt-2 h-100 ">
+                <form method="post" class="p-5 border white  user-action" id="signup">
+                    <p><?php __('cart_view_input_title') ?></p>
+                    <div class="mb-2">
+                        <label class="form-label"><?php __('cart_view_note_input') ?></label>
+                        <textarea class="form-control" name="note"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-warning w-100 mt-3"><?php __('cart_view_order_btn') ?></button>
+                </form>
+            </div>
         <?php endif; ?>
     </div>
 </div>

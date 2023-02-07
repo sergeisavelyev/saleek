@@ -1,5 +1,16 @@
 $(function() {
 
+    function showMessage(status, text) {
+        const noty = new Noty({
+            theme: 'bootstrap-v4',
+            progressBar: false,
+            type: status,
+            timeout: 500,
+            layout: 'topCenter',
+            text: text,
+        }).show();
+    }
+
     $('#languages a').on('click', function (e) {
         e.preventDefault();
         const lang_code = $(this).data('langcode');
@@ -105,6 +116,24 @@ $(function() {
         });
     });
 
+    $('#to-checkout').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: 'cart/checkout',
+            method: 'POST',
+            data: new FormData(this),
+			processData: false,
+			contentType: false,
+            success: function(result) {
+                const info = JSON.parse(result);
+                showMessage(info.status, info.message);
+            },
+            error: function () {
+                showMessage('error', 'Error');
+            }
+        });
+    });
+
     // Sort
 
     $('#input-sort').change(function () {
@@ -139,17 +168,6 @@ $(function() {
 
 
     // Wishlist
-
-    function showMessage(status, text) {
-        const noty = new Noty({
-            theme: 'bootstrap-v4',
-            progressBar: false,
-            type: status,
-            timeout: 500,
-            layout: 'topCenter',
-            text: text,
-        }).show();
-    }
 
     $('.product-sidebar').on('click', '#add-to-wishlist', function () {
         const id = $(this).data('id');

@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\controllers\AppController;
+use app\models\User;
 use core\App;
 
 class CartController extends AppController
@@ -59,5 +60,36 @@ class CartController extends AppController
     public function viewAction()
     {
         $this->setMeta(___('tpl_cart'));
+    }
+
+    public function checkoutAction()
+    {
+        if (!empty($_POST)) {
+            if (!User::checkAuth()) {
+                $data = $_POST;
+                $user = new User;
+                $user->load($data);
+                if (!$user->validate($data)) {
+                    $message = $user->getErrors();
+                    $status = 'error';
+                } else {
+                    if ($user->checkUnique()) {
+                        $message = ___('tpl_user_signup_error_email_unique');
+                        $status = 'error';
+                    } else {
+                        $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+                        if (!$user->save('users')) {
+                            $message = ___('cart_checkout_error_register');
+                            $status = 'error';
+                        } else {
+                            $message = ___('cart_checkout_order_success');
+                            $status = 'success';
+                        }
+                    }
+                }
+            }
+            $result = ['status' => $status, 'message' => $message];
+            exit(json_encode($result));
+        }
     }
 }
