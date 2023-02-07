@@ -151,7 +151,7 @@ $(function() {
         }).show();
     }
 
-    $('#add-to-wishlist').click(function () {
+    $('.product-sidebar').on('click', '#add-to-wishlist', function () {
         const id = $(this).data('id');
         $.ajax({
             url: 'wishlist/add',
@@ -169,7 +169,7 @@ $(function() {
         });
     });
 
-    $('#delete-from-wishlist').click(function () {
+    $('.product-sidebar').on('click', '#delete-from-wishlist', function () {
         const id = $(this).data('id');
         $.ajax({
             url: 'wishlist/delete',
