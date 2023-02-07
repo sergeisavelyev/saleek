@@ -34,5 +34,10 @@ return [
     'tpl_cart_price' => 'Цена',
     'tpl_cart_sum' => 'Сумма',
 
+    'tpl_user_signup_input_email' => 'Адрес электронной почты',
+    'tpl_user_signup_input_login' => 'Логин',
+    'tpl_user_signup_input_password' => 'Пароль',
+    'tpl_user_signup_error_email_unique' => 'Этот адрес электронной почты уже зарегистрирован',
+
     'tpl_category_empty_products' => 'Список товаров пуст...',
 ];

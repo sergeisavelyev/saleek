@@ -21,7 +21,7 @@ class UserController extends AppController
             } else {
                 $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 if ($this->model->checkUnique()) {
-                    $message = ___('user_signup_error_email_unique');
+                    $message = ___('tpl_user_signup_error_email_unique');
                     $status = 'error';
                 } else {
                     if ($this->model->save('users')) {

@@ -34,5 +34,10 @@ return [
     'tpl_cart_price' => 'Price',
     'tpl_cart_sum' => 'Amount',
 
+    'tpl_user_signup_input_email' => 'Email address',
+    'tpl_user_signup_input_login' => 'Login',
+    'tpl_user_signup_input_password' => 'Password',
+    'tpl_user_signup_error_email_unique' => 'This email address is already registered',
+
     'tpl_category_empty_products' => 'Product list is empty...',
 ];

@@ -21,9 +21,9 @@ class User extends AppModel
     ];
 
     public array $labels = [
-        'email' => 'user_signup_input_email',
-        'login' => 'user_signup_input_login',
-        'password' => 'user_signup_input_password',
+        'email' => 'tpl_user_signup_input_email',
+        'login' => 'tpl_user_signup_input_login',
+        'password' => 'tpl_user_signup_input_password',
     ];
 
     public function checkUnique(): bool
