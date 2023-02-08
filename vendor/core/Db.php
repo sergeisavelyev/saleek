@@ -65,4 +65,9 @@ class Db
         $result = self::query("SELECT * FROM $table WHERE $sql", $params);
         return $result->fetchAll(PDO::FETCH_UNIQUE | PDO::FETCH_ASSOC);
     }
+
+    public static function lastId()
+    {
+        return self::$db->lastInsertId();
+    }
 }
