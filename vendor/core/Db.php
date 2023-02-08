@@ -70,4 +70,19 @@ class Db
     {
         return self::$db->lastInsertId();
     }
+
+    public static function begin()
+    {
+        self::$db->beginTransaction();
+    }
+
+    public static function commit()
+    {
+        self::$db->commit();
+    }
+
+    public static function rollback()
+    {
+        self::$db->rollback();
+    }
 }
