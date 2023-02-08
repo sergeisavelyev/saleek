@@ -62,6 +62,7 @@ abstract class Model
 
     public function save($name)
     {
-        return Db::query("INSERT INTO $name (email, password, login) VALUE (:email, :password, :login)", $this->attributes);
+        Db::query("INSERT INTO $name (email, password, login) VALUE (:email, :password, :login)", $this->attributes);
+        return Db::lastId();
     }
 }
