@@ -58,6 +58,7 @@ class User extends AppModel
         if ($user) {
             foreach ($user as $key => $user_data) {
                 if (password_verify($password, $user_data['password'])) {
+                    $_SESSION['user']['id'] = $key;
                     foreach ($user_data as $k => $v) {
                         if ($k != 'password') {
                             $_SESSION['user'][$k] = $v;
