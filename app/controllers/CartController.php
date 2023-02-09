@@ -85,19 +85,15 @@ class CartController extends AppController
                     }
                 }
             }
-            // $data['user_id'] = $user_id ?? $_SESSION['user']['id'];
-            // $data['note'] = $_POST['note'];
-            // $user_email = $_SESSION['user']['email'] ?? $_POST['email'];
+            $data['user_id'] = $user_id ?? $_SESSION['user']['id'];
+            $data['note'] = $_POST['note'];
+            $user_email = $_SESSION['user']['email'] ?? $_POST['email'];
 
-            // if (!$order_id = Order::saveOrder($data)) {
-            //     $message = ___('cart_checkout_error_save_order');
-            //     $status = 'error';
-            // } else {
-            //     $message = ___('cart_checkout_order_success');
-            //     $status = 'success';
-            // }
-
-
+            if (!$order_id = Order::saveOrder($data)) {
+                $this->getResponce('error', ___('cart_checkout_error_save_order'));
+            } else {
+                $this->getResponce('success', ___('cart_checkout_order_success'));
+            }
             $this->pushResponce();
         }
     }
