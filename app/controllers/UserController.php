@@ -20,12 +20,12 @@ class UserController extends AppController
             } else {
                 $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 if ($this->model->checkUnique()) {
-                    $this->getResponce('error', 'tpl_user_signup_error_email_unique');
+                    $this->getResponce('error', ___('tpl_user_signup_error_email_unique'));
                 } else {
                     if ($this->model->save('users')) {
-                        $this->getResponce('success', 'user_signup_success_register');
+                        $this->getResponce('success', ___('user_signup_success_register'));
                     } else {
-                        $this->getResponce('error', 'user_signup_error_register');
+                        $this->getResponce('error', ___('user_signup_error_register'));
                     }
                 }
             }
@@ -42,9 +42,9 @@ class UserController extends AppController
 
         if (!empty($_POST)) {
             if ($this->model->login()) {
-                $this->getResponce('success', 'user_login_success_login');
+                $this->getResponce('success', ___('user_login_success_login'));
             } else {
-                $this->getResponce('error', 'user_login_error_login');
+                $this->getResponce('error', ___('user_login_error_login'));
             }
             $this->pushResponce();
         }

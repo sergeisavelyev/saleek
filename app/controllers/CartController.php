@@ -74,18 +74,17 @@ class CartController extends AppController
                     $this->getResponce('error', $user->getErrors());
                 } else {
                     if ($user->checkUnique()) {
-                        $this->getResponce('error', 'tpl_user_signup_error_email_unique');
+                        $this->getResponce('error', ___('tpl_user_signup_error_email_unique'));
                     } else {
                         $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
                         if (!$user_id = $user->save('users')) {
-                            $this->getResponce('error', 'cart_checkout_error_register');
+                            $this->getResponce('error', ___('cart_checkout_error_register'));
                         } else {
-                            $this->getResponce('success', 'cart_checkout_order_success');
+                            $this->getResponce('success', ___('cart_checkout_order_success'));
                         }
                     }
                 }
             }
-
             // $data['user_id'] = $user_id ?? $_SESSION['user']['id'];
             // $data['note'] = $_POST['note'];
             // $user_email = $_SESSION['user']['email'] ?? $_POST['email'];
