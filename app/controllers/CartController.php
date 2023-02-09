@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\controllers\AppController;
+use app\models\Order;
 use app\models\User;
 use core\App;
 
@@ -70,26 +71,35 @@ class CartController extends AppController
                 $user = new User;
                 $user->load($data);
                 if (!$user->validate($data)) {
-                    $message = $user->getErrors();
-                    $status = 'error';
+                    $this->getResponce('error', $user->getErrors());
                 } else {
                     if ($user->checkUnique()) {
-                        $message = ___('tpl_user_signup_error_email_unique');
-                        $status = 'error';
+                        $this->getResponce('error', 'tpl_user_signup_error_email_unique');
                     } else {
                         $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
-                        if (!$user->save('users')) {
-                            $message = ___('cart_checkout_error_register');
-                            $status = 'error';
+                        if (!$user_id = $user->save('users')) {
+                            $this->getResponce('error', 'cart_checkout_error_register');
                         } else {
-                            $message = ___('cart_checkout_order_success');
-                            $status = 'success';
+                            $this->getResponce('success', 'cart_checkout_order_success');
                         }
                     }
                 }
             }
-            $result = ['status' => $status, 'message' => $message];
-            exit(json_encode($result));
+
+            // $data['user_id'] = $user_id ?? $_SESSION['user']['id'];
+            // $data['note'] = $_POST['note'];
+            // $user_email = $_SESSION['user']['email'] ?? $_POST['email'];
+
+            // if (!$order_id = Order::saveOrder($data)) {
+            //     $message = ___('cart_checkout_error_save_order');
+            //     $status = 'error';
+            // } else {
+            //     $message = ___('cart_checkout_order_success');
+            //     $status = 'success';
+            // }
+
+
+            $this->pushResponce();
         }
     }
 }

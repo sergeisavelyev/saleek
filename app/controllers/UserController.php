@@ -16,27 +16,21 @@ class UserController extends AppController
             $data = $_POST;
             $this->model->load($data);
             if (!$this->model->validate($data)) {
-                $message = $this->model->getErrors();
-                $status = 'error';
+                $this->getResponce('error', $this->model->getErrors());
             } else {
                 $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 if ($this->model->checkUnique()) {
-                    $message = ___('tpl_user_signup_error_email_unique');
-                    $status = 'error';
+                    $this->getResponce('error', 'tpl_user_signup_error_email_unique');
                 } else {
                     if ($this->model->save('users')) {
-                        $message = ___('user_signup_success_register');
-                        $status = 'success';
+                        $this->getResponce('success', 'user_signup_success_register');
                     } else {
-                        $message = ___('user_signup_error_register');
-                        $status = 'error';
+                        $this->getResponce('error', 'user_signup_error_register');
                     }
                 }
             }
-            $result = ['status' => $status, 'message' => $message];
-            exit(json_encode($result));
+            $this->pushResponce();
         }
-
         $this->setMeta(___('user_signup_btn'));
     }
 
@@ -48,16 +42,12 @@ class UserController extends AppController
 
         if (!empty($_POST)) {
             if ($this->model->login()) {
-                $message = ___('user_login_success_login');
-                $status = 'success';
+                $this->getResponce('success', 'user_login_success_login');
             } else {
-                $message = ___('user_login_error_login');
-                $status = 'error';
+                $this->getResponce('error', 'user_login_error_login');
             }
-            $result = ['status' => $status, 'message' => $message];
-            exit(json_encode($result));
+            $this->pushResponce();
         }
-
         $this->setMeta(___('user_login'));
     }
 
