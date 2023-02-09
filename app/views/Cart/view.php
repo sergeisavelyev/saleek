@@ -64,7 +64,7 @@
             </div>
         <?php else : ?>
             <div class="container-lg d-flex flex-column align-items-center mt-2 h-100 ">
-                <form method="post" class="p-5 border white  user-action" id="signup">
+                <form method="post" class="p-5 border white  user-action" id="to-checkout">
                     <p><?php __('cart_view_input_title') ?></p>
                     <div class="mb-2">
                         <label class="form-label"><?php __('cart_view_note_input') ?></label>
