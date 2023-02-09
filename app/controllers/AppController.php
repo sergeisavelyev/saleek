@@ -10,6 +10,11 @@ use core\Db;
 
 class AppController extends Controller
 {
+    public array $responce = [
+        'status' => '',
+        'message' => '',
+    ];
+
     public function __construct($route)
     {
         parent::__construct($route);
@@ -26,5 +31,16 @@ class AppController extends Controller
         App::$app->setProperty('wishlist', Wishlist::get_wishlist_ids());
 
         \core\Language::load($lang['code'], $this->route);
+    }
+
+    public function getResponce($status, $message)
+    {
+        $this->responce['status'] = $status;
+        $this->responce['message'] = $message;
+    }
+
+    public function pushResponce()
+    {
+        exit(json_encode($this->responce));
     }
 }
