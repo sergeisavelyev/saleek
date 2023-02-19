@@ -127,6 +127,9 @@ $(function() {
             success: function(result) {
                 const info = JSON.parse(result);
                 showMessage(info.status, info.message);
+                if (info.status == 'success') {
+                    setTimeout(() => window.location = PATH + window.location.pathname, 1500);
+                }
             },
             error: function () {
                 showMessage('error', 'Error');
