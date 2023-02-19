@@ -60,7 +60,6 @@ class CartController extends AppController
 
     public function viewAction()
     {
-        debug($_SESSION);
         $this->setMeta(___('tpl_cart'));
     }
 
