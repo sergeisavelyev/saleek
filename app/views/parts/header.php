@@ -37,10 +37,10 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <?php if (!isset($_SESSION['user'])) : ?>
-                                        <li><a class="dropdown-item" href="#"><?php __('tpl_login') ?></a></li>
-                                        <li><a class="dropdown-item" href="#"><?php __('tpl_signup') ?></a></li>
+                                        <li><a class="dropdown-item" href="user/login"><?php __('tpl_login') ?></a></li>
+                                        <li><a class="dropdown-item" href="user/signup"><?php __('tpl_signup') ?></a></li>
                                     <?php else : ?>
-                                        <li><a class="dropdown-item" href="#"><?php __('tpl_profile_btn') ?></a></li>
+                                        <li><a class="dropdown-item" href="user/profile"><?php __('tpl_profile_btn') ?></a></li>
                                         <li><a class="dropdown-item" href="user/logout"><?php __('tpl_profile_logout') ?></a></li>
                                     <?php endif; ?>
                                 </ul>
