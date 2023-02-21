@@ -23,7 +23,11 @@
             <div class="container-lg">
                 <div class="row justify-content-between">
                     <div class="col-4">
-                        <?php __('tpl_hello') ?>! <a href="user/login"><?php __('tpl_login') ?></a> <?php __('tpl_or') ?> <a href="user/signup"><?php __('tpl_signup') ?></a>
+                        <?php if (!isset($_SESSION['user'])) : ?>
+                            <?php __('tpl_hello') ?>! <a href="user/login"><?php __('tpl_login') ?></a> <?php __('tpl_or') ?> <a href="user/signup"><?php __('tpl_signup') ?></a>
+                        <?php else : ?>
+                            <?php __('tpl_hello') ?>, <?= $_SESSION['user']['login']  ?>!
+                        <?php endif; ?>
                     </div>
                     <div class="col-6 d-none d-lg-block">
                         <div class="d-flex justify-content-end">
