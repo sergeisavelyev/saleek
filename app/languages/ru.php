@@ -9,6 +9,7 @@ return [
     'tpl_profile' => 'Мой Saleek',
     'tpl_profile_btn' => 'Профиль',
     'tpl_profile_logout' => 'Выйти',
+    'tpl_profile_orders' => 'Покупки',
 
     'tpl_error' => 'Ошибка',
 

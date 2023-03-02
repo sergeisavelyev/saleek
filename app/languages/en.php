@@ -9,6 +9,7 @@ return [
     'tpl_profile' => 'My Saleek',
     'tpl_profile_btn' => 'Profile',
     'tpl_profile_logout' => 'Logout',
+    'tpl_profile_orders' => 'Orders',
 
     'tpl_error' => 'Error',
 

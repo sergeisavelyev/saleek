@@ -58,4 +58,22 @@ class UserController extends AppController
             redirect(base_url());
         }
     }
+
+    public function profileAction()
+    {
+        if (!$this->model->checkAuth()) {
+            redirect(base_url());
+        }
+        $this->setMeta(___('tpl_profile_btn'));
+    }
+
+    public function ordersAction()
+    {
+        if (!$this->model->checkAuth()) {
+            redirect(base_url());
+        }
+        $orders = $this->model->getUserOrders($_SESSION['user']['id']);
+        $this->setMeta(___('tpl_profile_orders'));
+        $this->set(compact('orders'));
+    }
 }

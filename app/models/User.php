@@ -71,4 +71,9 @@ class User extends AppModel
 
         return false;
     }
+
+    public function getUserOrders($id)
+    {
+        return Db::row('SELECT * FROM orders WHERE user_id = ?', $id);
+    }
 }
