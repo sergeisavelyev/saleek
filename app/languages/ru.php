@@ -40,5 +40,7 @@ return [
     'tpl_user_signup_input_password' => 'Пароль',
     'tpl_user_signup_error_email_unique' => 'Этот адрес электронной почты уже зарегистрирован',
 
+    'tpl_user_order_title' => 'Просмотр заказа',
+
     'tpl_category_empty_products' => 'Список товаров пуст...',
 ];

@@ -76,4 +76,9 @@ class User extends AppModel
     {
         return Db::row('SELECT * FROM orders WHERE user_id = ?', $id);
     }
+
+    public function getUserOrder($id)
+    {
+        return Db::row('SELECT o.*, op.* FROM orders o JOIN order_product op ON o.id = op.order_id WHERE o.id = ?', $id);
+    }
 }

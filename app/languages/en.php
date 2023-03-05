@@ -40,5 +40,7 @@ return [
     'tpl_user_signup_input_password' => 'Password',
     'tpl_user_signup_error_email_unique' => 'This email address is already registered',
 
+    'tpl_user_order_title' => 'Order view',
+
     'tpl_category_empty_products' => 'Product list is empty...',
 ];

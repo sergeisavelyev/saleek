@@ -73,7 +73,24 @@ class UserController extends AppController
             redirect(base_url());
         }
         $orders = $this->model->getUserOrders($_SESSION['user']['id']);
+
         $this->setMeta(___('tpl_profile_orders'));
         $this->set(compact('orders'));
+    }
+
+    public function orderAction()
+    {
+        if (!$this->model->checkAuth()) {
+            redirect(base_url());
+        }
+
+        $id = get('id');
+        $order = $this->model->getUserOrder($id);
+        if (!$order) {
+            throw new \Exception('Not found order', 404);
+        }
+
+        $this->setMeta(___('tpl_user_order_title'));
+        $this->set(compact('order'));
     }
 }
